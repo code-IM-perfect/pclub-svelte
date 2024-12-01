@@ -24,9 +24,9 @@
 			<div id="aboutWindow">
 				<div id="aboutText">
 					<p>
-						Programming Club (or PClub) is a community of students highly enthusiastic about coding,
-						ethical hacking, Web Designing and all other aspects of programming. We are a team
-						currently of 4 coordinators (pre-final year) and 25 secretaries (sophomores).
+						A short about Pclub paragraph, nothing too fancy but the content should be lesser than
+						the curent about cuz it was already displayed in `man pclub` on the desktop animation on
+						the main page. And honestly it's length was creating some responisveness problems.
 					</p>
 					<p>
 						Our Instagram page boasts around 1.7K followers and is a hub for programming-related
@@ -34,7 +34,7 @@
 						informative posts that keep our followers up-to-date on the latest in the programming
 						world.
 					</p>
-					<p>
+					<!-- <p>
 						We organize activities related to Development (Web Development, Open Source, Game/App
 						Development), programming contests, hackathons, Capture The Flag contests, et all.
 						Lecture series are regularly taken on algorithms, web hijacking, development, among
@@ -48,7 +48,7 @@
 					<p class="noMobile">
 						During summers, we offer a large number of projects to the first year students through
 						our Summer Camp. The 2024 Summer Camp saw close to 400 applicants.
-					</p>
+					</p> -->
 					<p class="noMobile">
 						Feel free to contact any of our members any time in case of any queries! We hang out on
 						DiscordFeel free to contact any of our members any time in case of any queries! We hang
