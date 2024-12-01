@@ -100,7 +100,7 @@
 			width: 100%;
 			height: 100%;
 			border-radius: 1rem;
-			animation: popup 1s 1 2s;
+			/* animation: popup 1s 1 2s; */
 			/* font-family: 'phenomicon'; */
 			font-family: 'Subtle Curves', sans-serif;
 			/* opacity: 0.95; */
