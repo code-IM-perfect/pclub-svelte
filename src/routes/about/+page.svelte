@@ -138,8 +138,7 @@
 		font-family: 'JetBrains Mono', monospace;
 
 		& #aboutText {
-			max-height: 80vh;
-			overflow: auto;
+			max-height: 85vh;
 		}
 		p {
 			margin: 1.9vh 0;
