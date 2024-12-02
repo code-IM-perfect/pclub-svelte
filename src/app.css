@@ -19,3 +19,9 @@ body {
 	overflow-x: hidden;
 	margin: 0;
 }
+
+::selection {
+	color: color-mix(in srgb, var(--dark) 75%, transparent);
+	background: var(--primary);
+	text-decoration-color: var(--secondary);
+}
