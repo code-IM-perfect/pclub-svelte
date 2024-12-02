@@ -25,3 +25,13 @@ body {
 	background: var(--primary);
 	text-decoration-color: var(--secondary);
 }
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+	background: var(--secondary);
+	text-decoration-color: var(--primary);
+}
