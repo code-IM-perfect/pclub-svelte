@@ -189,6 +189,27 @@
 		}
 	}
 
+	@media (max-width: 1050px) {
+		#backdrop {
+			grid-template-rows: repeat(5, 1fr);
+			grid-template-columns: repeat(2, 1fr);
+
+			p {
+				font-size: 13vh;
+			}
+		}
+		#aboutWindow {
+			/* border-radius: 2vh; */
+			padding: 4vw 5vw;
+			/* margin: 0 5vw; */
+			p {
+				/* margin: 1.2vw 0; */
+				font-size: 2.3vw;
+			}
+		}
+	}
+
+
 	@keyframes popup {
 		0% {
 			scale: 0;
