@@ -169,4 +169,22 @@
 		-webkit-text-fill-color: transparent;
 	}
 
+	@media (hover: none) {
+		.teamLink p {
+			background: linear-gradient(
+				-45deg,
+				#4099c5 0%,
+				#13a9c2 12.45395%,
+				#00b6b6 24.959615%,
+				#38c2a2 39.623725%,
+				#69cb8a 52.747399%,
+				#99d075 69.012517%,
+				#cad268 81.63445%,
+				#fbe76b 100%
+			);
+			background-position: center;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
 </style>
