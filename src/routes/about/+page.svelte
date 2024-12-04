@@ -54,6 +54,15 @@
 						DiscordFeel free to contact any of our members any time in case of any queries! We hang
 						out on Discord
 					</p>
+					<div class="teamLink text-center">
+						<p>
+							<a href="#ourTeam">
+								+------------------+<br />
+								| &nbsp;Meet Our Team!&nbsp; |<br />
+								+------------------+
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
