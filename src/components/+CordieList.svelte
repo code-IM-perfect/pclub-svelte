@@ -10,6 +10,7 @@
 	{#each cordies as cordie}
 		<div class="cordieCard">
 			<div class="backGlow"></div>
+			<img src={cordie.image} alt="" />
 			<h4>{cordie.name}</h4>
 		</div>
 	{/each}
