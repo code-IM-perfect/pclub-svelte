@@ -100,6 +100,7 @@
 			width: 100%;
 			height: 100%;
 			border-radius: 1rem;
+			animation: popup 1s 1 2s;
 			/* font-family: 'phenomicon'; */
 			font-family: 'Subtle Curves', sans-serif;
 			/* opacity: 0.95; */
@@ -185,6 +186,20 @@
 			background-position: center;
 			background-clip: text;
 			-webkit-text-fill-color: transparent;
+		}
+	}
+
+	@keyframes popup {
+		0% {
+			scale: 0;
+			opacity: 0;
+		}
+		20% {
+			opacity: 0.05;
+		}
+		100% {
+			scale: 1;
+			opacity: 1;
 		}
 	}
 </style>
