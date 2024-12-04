@@ -59,6 +59,10 @@
 		</div>
 	</main>
 </section>
+
+<section id="ourTeam">
+	<h2>Current Coordinators</h2>
+	<h2>Current Secretaries</h2>
 </section>
 
 <style>
