@@ -144,12 +144,14 @@
 			margin: 1.9vh 0;
 			font-size: 2.2vh;
 		}
-	}
-	.teamLink {
-		display: grid;
-		place-items: center;
-		p {
-			width: max-content;
+		& .teamLink {
+			display: grid;
+			place-items: center;
+			p {
+				line-height: 1;
+				width: max-content;
+				margin: 0;
+			}
 		}
 	}
 	.teamLink:hover p {
