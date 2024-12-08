@@ -7,6 +7,28 @@
 </script>
 
 <h2 class="text-center">Current Coordinators</h2>
+<div id="cordieContainer">
+	<div id="cordieGrid">
+		{#each cordies as cordie}
+			<div class="cordieCard">
+				<div class="cordieImg" style="background-image: url('{cordie.image}');"></div>
+				<h4 class="cordieName">{cordie.name}</h4>
+				<a class="cordieMail" href="mailto:{cordie.mail}">{cordie.mail}</a>
+				<h5 class="cordieNum">{cordie.number}</h5>
+				<div class="socButtons">
+					<a class="instButt" href={cordie.insta} aria-label="instagram-social-button">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a class="gitButt" href={cordie.github} aria-label="github-social-button">
+						<i class="fa-brands fa-github"></i>
+					</a>
+					<a class="linkdButt" href={cordie.linkedin} aria-label="linkedin-social-button">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		{/each}
+	</div>
 </div>
 
 <style>
