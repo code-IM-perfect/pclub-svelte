@@ -10,6 +10,7 @@
 	--secondary: #fff96e;
 	/* --primary: #94dfff;
 	--secondary: #fbd16d; */
+	scroll-behavior: smooth;
 }
 
 body {
