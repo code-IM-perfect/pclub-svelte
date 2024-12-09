@@ -40,4 +40,15 @@
 		text-underline-offset: 0.8vh;
 		line-height: 1.3;
 	}
+	#cordieContainer {
+		display: grid;
+		place-items: center;
+
+		& #cordieGrid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			text-align: center;
+			gap: 6vh 5vw;
+		}
+	}
 </style>
