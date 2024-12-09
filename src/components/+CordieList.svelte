@@ -51,4 +51,11 @@
 			gap: 6vh 5vw;
 		}
 	}
+	.cordieCard {
+		--border-rad: 1.5vh;
+		border-radius: var(--border-rad);
+		padding: 2vh;
+		position: relative;
+		background: var(--dark);
+	}
 </style>
