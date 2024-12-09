@@ -57,5 +57,77 @@
 		padding: 2vh;
 		position: relative;
 		background: var(--dark);
+
+		& .cordieImg {
+			width: 100%;
+			height: 40vh;
+			border-radius: var(--border-rad);
+
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+
+			transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+		}
+
+		& .cordieName {
+			font-size: 2.5vh;
+			font-weight: 600;
+			margin: 1.2vh 1vh 0;
+		}
+		& .cordieMail {
+			font-size: 1.6vh;
+			font-weight: 500;
+		}
+		& .cordieNum {
+			font-size: 1.4vh;
+		}
+		& h4,
+		h5,
+		a {
+			transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+		}
+		& .socButtons {
+			--front: var(--light);
+			--back: var(--dark);
+			font-size: 2vh;
+			margin-top: 1.7vh;
+
+			height: 0vh;
+			overflow: hidden;
+			transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
+			& a {
+				opacity: 0.9;
+				background: var(--back);
+				color: var(--front);
+				border: solid var(--front) 0.2vh;
+				border-radius: 0.8vh;
+				margin: 0 0.6vh;
+				position: relative;
+				top: 0.5vh;
+
+				padding: 0.4vh 1.2vh;
+			}
+			& a:hover {
+				opacity: 1;
+				border-color: var(--back);
+				--back: var(--light);
+				--front: var(--dark);
+			}
+			/* & a.instButt:hover {
+				--back: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+				border-color: var(--dark);
+			}
+			& a.gitButt:hover {
+				--back: var(--light);
+				--front: var(--dark);
+			}
+			& a.linkdButt:hover {
+				--back: #2d97cf;
+			} */
+		}
+	}
+
 	}
 </style>
