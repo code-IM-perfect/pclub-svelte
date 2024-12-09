@@ -54,7 +54,7 @@
 		}
 	}
 	.cordieCard {
-		--grad: linear-gradient(
+		/* --grad: linear-gradient(
 			-40deg,
 			#4099c5 0%,
 			#13a9c2 12.45395%,
@@ -64,6 +64,17 @@
 			#99d075 69.012517%,
 			#cad268 81.63445%,
 			#fbe76b 100%
+		); */
+		--grad: linear-gradient(
+			-40deg,
+			#64cbff 0%,
+			#20ddff 12.45395%,
+			#07ffff 24.959615%,
+			#4fffd6 39.623725%,
+			#84ffad 52.747399%,
+			#bcff8f 69.012517%,
+			#f3ff71 81.63445%,
+			#ffee83 100%
 		);
 		--border-rad: 1.5vh;
 		border-radius: var(--border-rad);
