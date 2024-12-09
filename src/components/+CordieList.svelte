@@ -26,6 +26,8 @@
 						<i class="fa-brands fa-linkedin"></i>
 					</a>
 				</div>
+				<div class="backBord"></div>
+				<div class="backBord backBlur"></div>
 			</div>
 		{/each}
 	</div>
@@ -52,6 +54,17 @@
 		}
 	}
 	.cordieCard {
+		--grad: linear-gradient(
+			-40deg,
+			#4099c5 0%,
+			#13a9c2 12.45395%,
+			#00b6b6 24.959615%,
+			#38c2a2 39.623725%,
+			#69cb8a 52.747399%,
+			#99d075 69.012517%,
+			#cad268 81.63445%,
+			#fbe76b 100%
+		);
 		--border-rad: 1.5vh;
 		border-radius: var(--border-rad);
 		padding: 2vh;
@@ -127,7 +140,17 @@
 				--back: #2d97cf;
 			} */
 		}
+		& .backBord {
+			position: absolute;
+			z-index: -5;
+			inset: 0;
+			border-radius: var(--border-rad);
+			background: var(--grad);
+			transition: all 0.4s cubic-bezier(0.32, 1.85, 0, 0.86);
+		}
+		& .backBlur {
+			filter: blur(0.7vh);
+		}
 	}
-
 	}
 </style>
