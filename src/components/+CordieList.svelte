@@ -164,5 +164,30 @@
 			filter: blur(0.7vh);
 		}
 	}
+
+	.cordieCard:hover {
+		/* background: var(--grad); */
+		& .cordieImg {
+			height: 34.5vh;
+		}
+		& .socButtons {
+			height: 5.5vh;
+		}
+		/* & .cordieName {
+			color: var(--secondary);
+			scale: 1.08 1.1;
+			letter-spacing: 0.1vw;
+		} */
+		/* & .cordieMail,
+		.cordieNum {
+			color: var(--primary);
+		} */
+		& .backBord {
+			inset: -0.5vh;
+		}
+		& .backBlur {
+			filter: blur(2vh);
+		}
+	}
 	}
 </style>
