@@ -210,5 +210,35 @@
 		}
 	}
 
+	@media (max-width: 1050px) {
+		#cordieContainer {
+			& #cordieGrid {
+				gap: 3.5vh 6vw;
+			}
+		}
+		.cordieCard {
+			padding: 2vw;
+			max-width: 38vw;
+			display: grid;
+			justify-items: center;
+			& .cordieImg {
+				height: 25vh;
+			}
+			& .cordieName {
+				font-size: 2.4vh;
+				margin: 1.2vh 0 0;
+				max-width: 80%;
+				line-height: 1.1;
+			}
+			& .backBlur {
+				filter: blur(0.9vh);
+			}
+			& .backBord {
+				inset: -0.65vw;
+				border-radius: 2.5vw;
+			}
+		}
+	}
+
 	}
 </style>
