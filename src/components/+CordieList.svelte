@@ -189,5 +189,26 @@
 			filter: blur(2vh);
 		}
 	}
+
+	@media (hover: none) {
+		.cordieCard {
+			& .cordieImg {
+				height: 34.5vh;
+			}
+			& .socButtons {
+				height: 5.5vh;
+			}
+			& .backBlur {
+				filter: blur(2vh);
+			}
+
+			& .socButtons {
+				& a {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
 	}
 </style>
