@@ -240,5 +240,37 @@
 		}
 	}
 
+	@media (max-width: 769px) {
+		#cordieContainer {
+			& #cordieGrid {
+				gap: 3.5vh 6vw;
+				grid-template-columns: repeat(1, 1fr);
+				grid-template-rows: repeat(4, 1fr);
+			}
+		}
+		.cordieCard {
+			--border-rad: 3.8vw;
+
+			padding: 1.7vh 3vw;
+			max-width: 85vw;
+			display: grid;
+			justify-items: center;
+			& .cordieImg {
+				height: 30vh;
+			}
+			& .cordieName {
+				font-size: 2.5vh;
+				margin: 1.2vh 3vw 0;
+				max-width: 85%;
+				line-height: 1.1;
+			}
+			& .backBlur {
+				filter: blur(0.9vh);
+			}
+			& .backBord {
+				inset: -1.2vw;
+				border-radius: 4vw;
+			}
+		}
 	}
 </style>
