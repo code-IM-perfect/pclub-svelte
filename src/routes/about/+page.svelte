@@ -237,7 +237,7 @@
 		}
 	}
 
-	@keyframes popup {
+	/* @keyframes popup {
 		0% {
 			scale: 0;
 			opacity: 0;
@@ -249,5 +249,5 @@
 			scale: 1;
 			opacity: 1;
 		}
-	}
+	} */
 </style>
