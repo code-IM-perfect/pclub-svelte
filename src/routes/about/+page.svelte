@@ -218,7 +218,7 @@
 			display: none;
 		}
 		main#cont {
-			height: 120vh;
+			height: 100vh;
 			& #aboutContainer {
 				height: 100vh;
 				display: grid;
@@ -230,8 +230,12 @@
 			padding: 3vw 4vw;
 			/* margin: 0 5vw; */
 			p {
-				margin: 2vw 0;
-				font-size: 4vw;
+				margin: 1.1vh 0;
+				font-size: 3.9vw;
+			}
+			& #aboutText {
+				max-height: 90vh;
+				overflow: hidden;
 			}
 		}
 	}
