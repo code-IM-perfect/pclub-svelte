@@ -7,6 +7,7 @@
 
 	afterNavigate(() => {
 		navVisible = false;
+		document.body.style.overflowY = 'auto';
 	});
 
 	let overflowState = $derived(navVisible ? 'hidden' : 'auto');
