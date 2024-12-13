@@ -1,4 +1,4 @@
-<h2>Our Secretaries</h2>
+<h2>Current Secretaries</h2>
 
 <style>
 	h2 {
