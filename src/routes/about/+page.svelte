@@ -5,6 +5,16 @@
 
 	const aboutLetters = ['A', 'B', 'O', 'U', 'T'];
 	const pclubLetters = ['P', 'C', 'L', 'U', 'B'];
+
+	import gsap from 'gsap';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		let timeline = gsap.timeline({
+			delay: 0.5
+		});
+
+	});
 </script>
 
 <section class="hero">
