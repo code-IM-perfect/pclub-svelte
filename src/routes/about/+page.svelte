@@ -1,5 +1,6 @@
 <script>
 	import CordieList from '../../components/+CordieList.svelte';
+	import OldCordies from '../../components/+OldCordies.svelte';
 	import SecyList from '../../components/+SecyList.svelte';
 
 	const aboutLetters = ['A', 'B', 'O', 'U', 'T'];
@@ -76,6 +77,7 @@
 <section id="ourTeam">
 	<CordieList />
 	<SecyList />
+	<OldCordies />
 </section>
 
 <style>
