@@ -798,7 +798,7 @@
 	section.desktop {
 		height: 100vh;
 		margin-top: 30vh;
-		background-image: url('$lib/images/homePage/wallpaper.avif');
+		background-image: url('homePageImg/wallpaper.avif');
 		background-size: cover;
 		background-position: center;
 		overflow: hidden;
