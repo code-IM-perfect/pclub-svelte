@@ -55,6 +55,9 @@
 		}
 	}
 	.cordieCard {
+		--imgHeight: 40vh;
+		--socialHeight: 5.5vh;
+		--bordWidth: -0.5vh;
 		/* --grad: linear-gradient(
 			-40deg,
 			#4099c5 0%,
@@ -85,7 +88,7 @@
 
 		& .cordieImg {
 			width: 100%;
-			height: 40vh;
+			height: var(--imgHeight);
 			border-radius: var(--border-rad);
 
 			background-position: center;
@@ -168,10 +171,10 @@
 	.cordieCard:hover {
 		/* background: var(--grad); */
 		& .cordieImg {
-			height: 34.5vh;
+			height: calc(var(--imgHeight) - var(--socialHeight));
 		}
 		& .socButtons {
-			height: 5.5vh;
+			height: var(--socialHeight);
 		}
 		/* & .cordieName {
 			color: var(--secondary);
@@ -183,7 +186,7 @@
 			color: var(--primary);
 		} */
 		& .backBord {
-			inset: -0.5vh;
+			inset: var(--bordWidth);
 		}
 		& .backBlur {
 			filter: blur(2vh);
@@ -193,10 +196,13 @@
 	@media (hover: none) {
 		.cordieCard {
 			& .cordieImg {
-				height: 34.5vh;
+				height: calc(var(--imgHeight) - var(--socialHeight));
 			}
 			& .socButtons {
-				height: 5.5vh;
+				height: var(--socialHeight);
+			}
+			& .backBord {
+				inset: var(--bordWidth);
 			}
 			& .backBlur {
 				filter: blur(2vh);
