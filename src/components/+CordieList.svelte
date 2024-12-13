@@ -1,9 +1,6 @@
 <script>
 	import cordieObj from '$lib/contactInfo/cordie.json';
-	// const cordies = JSON.parse(cordieJson);
 	const cordies = Object.values(cordieObj);
-
-	// console.log(cordies[0].image);
 </script>
 
 <h2 class="text-center">Current Coordinators</h2>
@@ -223,13 +220,14 @@
 			}
 		}
 		.cordieCard {
+			--imgHeight: 32vh;
+			--socialHeight: 5vh;
+			--bordWidth: -0.65vw;
+
 			padding: 2vw;
 			max-width: 38vw;
 			display: grid;
 			justify-items: center;
-			& .cordieImg {
-				height: 25vh;
-			}
 			& .cordieName {
 				font-size: 2.4vh;
 				margin: 1.2vh 0 0;
@@ -240,7 +238,6 @@
 				filter: blur(0.9vh);
 			}
 			& .backBord {
-				inset: -0.65vw;
 				border-radius: 2.5vw;
 			}
 		}
@@ -255,15 +252,15 @@
 			}
 		}
 		.cordieCard {
+			--imgHeight: 32vh;
+			--socialHeight: 5vh;
 			--border-rad: 3.8vw;
+			--bordWidth: -1.2vw;
 
 			padding: 1.7vh 3vw;
 			max-width: 85vw;
 			display: grid;
 			justify-items: center;
-			& .cordieImg {
-				height: 30vh;
-			}
 			& .cordieName {
 				font-size: 2.5vh;
 				margin: 1.2vh 3vw 0;
@@ -274,7 +271,6 @@
 				filter: blur(0.9vh);
 			}
 			& .backBord {
-				inset: -1.2vw;
 				border-radius: 4vw;
 			}
 		}
