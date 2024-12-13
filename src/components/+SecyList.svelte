@@ -8,5 +8,6 @@
 		color: var(--primary);
 		text-decoration: underline 0.4vh var(--secondary);
 		text-underline-offset: 0.8vh;
+		line-height: 1.3;
 	}
 </style>
