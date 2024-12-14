@@ -346,6 +346,11 @@
 			color: #ddd;
 		}
 	}
+	@media (max-width: 1050px) and (hover: none) {
+		#circleClone {
+			display: none;
+		}
+	}
 	/* Phone Styles */
 	@media (max-width: 768px) {
 		section.hero {
