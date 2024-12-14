@@ -346,6 +346,36 @@
 			color: #ddd;
 		}
 	}
+	/* Tablet Styles */
+	@media (max-width: 1050px) {
+		section.hero {
+			height: 87vh;
+			overflow-x: clip;
+			position: relative;
+
+			#gradientCircleFooter {
+				aspect-ratio: 1;
+				width: 110vh;
+				top: 20%;
+				rotate: 40deg;
+			}
+			/* & .titleBox {
+				bottom: 10vh;
+			} */
+			& h2 {
+				font-size: 4rem;
+				line-height: 0.8;
+			}
+			& h1 {
+				font-size: 5.5rem;
+				line-height: 1.05;
+			}
+			& p {
+				font-size: 1.25rem;
+				line-height: 2.5;
+			}
+		}
+	}
 	@media (max-width: 1050px) and (hover: none) {
 		#circleClone {
 			display: none;
