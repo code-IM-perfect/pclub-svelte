@@ -347,7 +347,7 @@
 		}
 	}
 	/* Phone Styles */
-	@media only screen and (max-width: 768px) {
+	@media (max-width: 768px) {
 		section.hero {
 			overflow-x: clip;
 			#gradientCircleFooter {
