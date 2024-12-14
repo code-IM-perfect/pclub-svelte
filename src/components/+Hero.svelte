@@ -125,7 +125,7 @@
 				);
 		});
 		// Desktop
-		mm.add('(min-width:992px)', () => {
+		mm.add('(min-width:1050px)', () => {
 			gsap.set('#smolCircle', { translate: '49% 83%' });
 			timeline
 				.fromTo(
