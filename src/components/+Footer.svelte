@@ -93,7 +93,7 @@
 		position: relative;
 		overflow-x: clip;
 		overflow-y: clip;
-		overflow-clip-margin: 2.5vh;
+		overflow-clip-margin: 2.4vh;
 		height: 100vh;
 		z-index: 2;
 		margin-top: 3vh;
