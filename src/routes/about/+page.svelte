@@ -206,7 +206,7 @@
 			/* margin: 0 5vw; */
 			p {
 				/* margin: 1.2vw 0; */
-				font-size: 2.3vw;
+				font-size: 2vh;
 			}
 		}
 	}
