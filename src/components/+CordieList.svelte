@@ -6,14 +6,7 @@
 	// console.log(cordies[0].image);
 </script>
 
-<div class="cordieContainer">
-	{#each cordies as cordie}
-		<div class="cordieCard">
-			<div class="backGlow"></div>
-			<img src={cordie.image} alt="" />
-			<h4>{cordie.name}</h4>
-		</div>
-	{/each}
+<h2 class="text-center">Current Coordinators</h2>
 </div>
 
 <style>

@@ -74,9 +74,7 @@
 </section>
 
 <section id="ourTeam">
-	<h2>Current Coordinators</h2>
 	<CordieList />
-	<h2>Current Secretaries</h2>
 	<SecyList />
 </section>
 
