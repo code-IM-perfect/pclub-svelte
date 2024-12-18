@@ -156,15 +156,15 @@
 	}
 	.teamLink:hover p {
 		background: linear-gradient(
-			-45deg,
-			#4099c5 0%,
-			#13a9c2 12.45395%,
-			#00b6b6 24.959615%,
-			#38c2a2 39.623725%,
-			#69cb8a 52.747399%,
-			#99d075 69.012517%,
-			#cad268 81.63445%,
-			#fbe76b 100%
+			-40deg,
+			#64cbff 0%,
+			#20ddff 12.45395%,
+			#07ffff 24.959615%,
+			#4fffd6 39.623725%,
+			#84ffad 52.747399%,
+			#bcff8f 69.012517%,
+			#f3ff71 81.63445%,
+			#ffee83 100%
 		);
 		background-position: center;
 		background-clip: text;
@@ -174,15 +174,15 @@
 	@media (hover: none) {
 		.teamLink p {
 			background: linear-gradient(
-				-45deg,
-				#4099c5 0%,
-				#13a9c2 12.45395%,
-				#00b6b6 24.959615%,
-				#38c2a2 39.623725%,
-				#69cb8a 52.747399%,
-				#99d075 69.012517%,
-				#cad268 81.63445%,
-				#fbe76b 100%
+				-40deg,
+				#64cbff 0%,
+				#20ddff 12.45395%,
+				#07ffff 24.959615%,
+				#4fffd6 39.623725%,
+				#84ffad 52.747399%,
+				#bcff8f 69.012517%,
+				#f3ff71 81.63445%,
+				#ffee83 100%
 			);
 			background-position: center;
 			background-clip: text;
