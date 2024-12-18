@@ -156,7 +156,7 @@
 			}
 		}
 	}
-	.teamLink:hover p {
+	.teamLink p:hover {
 		background: linear-gradient(
 			-40deg,
 			#64cbff 0%,
