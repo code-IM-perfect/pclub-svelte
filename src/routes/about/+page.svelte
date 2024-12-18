@@ -49,7 +49,7 @@
 						During summers, we offer a large number of projects to the first year students through
 						our Summer Camp. The 2024 Summer Camp saw close to 400 applicants.
 					</p> -->
-					<p class="noMobile">
+					<p>
 						Feel free to contact any of our members any time in case of any queries! We hang out on
 						DiscordFeel free to contact any of our members any time in case of any queries! We hang
 						out on Discord
