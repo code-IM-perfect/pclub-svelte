@@ -57,9 +57,13 @@
 					<div class="teamLink text-center">
 						<p>
 							<a href="#ourTeam">
-								+------------------+<br />
-								| &nbsp;Meet Our Team!&nbsp; |<br />
-								+------------------+
+								+--------------------+<br />
+								|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br
+								/>
+								| &nbsp;&nbsp;Meet Our Team!&nbsp;&nbsp; |<br />
+								|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br
+								/>
+								+--------------------+
 							</a>
 						</p>
 					</div>
