@@ -1285,8 +1285,14 @@
 				letter-spacing: 0.001vw;
 				line-height: 1.2;
 			}
-			.neofetch .output p {
-				font-size: 1.5vh;
+			.neofetch .output {
+				margin-left: 4vw;
+				p {
+					font-size: 1.6vh;
+				}
+			}
+			.terminal-window {
+				padding: 2vh 3.5vh 3vh;
 			}
 		}
 	}
