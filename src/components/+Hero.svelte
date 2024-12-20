@@ -225,5 +225,34 @@
 			color: #ddd;
 		}
 	}
-
+	/* Phone Styles */
+	@media only screen and (max-width: 768px) {
+		section.hero {
+			overflow-x: clip;
+			#gradientCircleFooter {
+				aspect-ratio: 1;
+				width: 150vw;
+				top: 20%;
+				rotate: 40deg;
+			}
+			& .titleBox {
+				position: absolute;
+				bottom: 10vh;
+				left: 5%;
+				margin: 0;
+				text-align: center;
+			}
+			& h1 {
+				font-size: 10vw;
+			}
+			& h2 {
+				font-size: 12vw;
+				line-height: 1.1;
+			}
+			& p {
+				font-size: 3.5vw;
+				line-height: 4;
+			}
+		}
+	}
 </style>
