@@ -371,5 +371,8 @@
 				line-height: 4;
 			}
 		}
+		#circleClone {
+			display: none;
+		}
 	}
 </style>
