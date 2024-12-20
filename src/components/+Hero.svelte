@@ -10,6 +10,122 @@
 		timeline = gsap.timeline({
 			delay: 1.5
 		});
+
+		let mm = gsap.matchMedia();
+		// Mobile
+		mm.add('(max-width:768px)', () => {
+			gsap.set('#smolCircle', { translate: '49% 83%' });
+			timeline
+				.fromTo(
+					'section.hero h1,section.hero h2',
+					{
+						clipPath: 'polygon(0 -10%,100% -10%,100% -10%,0 -10%)',
+						y: '100%'
+					},
+					{
+						clipPath: 'polygon(0 -10%,100% -10%,100% 120%,0 120%)',
+						duration: 1,
+						y: 0,
+						ease: 'expo.out'
+					}
+				)
+				.fromTo(
+					'section.hero .titleBox',
+					{ bottom: '28%' },
+					{
+						bottom: '30%',
+						ease: 'expoScale(0.5,1,circ.out)',
+						duration: 2
+					},
+					'<'
+				)
+				.fromTo(
+					'#gradientCircleFooter',
+					{ scale: 0, rotate: '50deg' },
+					{
+						scale: 1,
+						rotate: '45deg',
+						duration: 1.5,
+						ease: 'expoScale(0.5, 1, circ.inOut)'
+					},
+					'<0.6'
+				)
+				.from(
+					'#smolCircle',
+					{
+						transform: 'translate(49%,83%) scale(0)',
+						duration: 0.7,
+						ease: 'expoScale(5, 0.1, expo.inOut)'
+					},
+					'-=0.2'
+				)
+				.to(
+					'#smolCircle',
+					{
+						transform: 'translate(50%,50%) scale(3)',
+						duration: 1.8,
+						ease: 'expo.inOut'
+					},
+					'-=0.3'
+				)
+				.to(
+					'section.hero .titleBox',
+					{
+						bottom: '10%',
+						duration: 1.6,
+						ease: 'expo.inOut'
+					},
+					'<'
+				)
+				.fromTo(
+					'#gradientCircleFooter',
+					{
+						rotate: '45deg'
+					},
+					{
+						top: '35%',
+						// right: '-5%',
+						rotate: '-100deg',
+						scale: 0.45,
+						duration: 1.2,
+						ease: 'expo.inOut'
+					},
+					'<0.3'
+				)
+				.from(
+					'section.hero p',
+					{
+						opacity: -1,
+						y: '200%',
+						duration: 1.2,
+						ease: 'expo.inOut'
+					},
+					'<0.5'
+				)
+				.from(
+					'header',
+					{
+						opacity: 0,
+						duration: 1,
+						ease: 'expo.inOut'
+					},
+					'<0.5'
+				)
+				.fromTo(
+					'#gradientCircleFooter',
+					{
+						rotate: '-100deg'
+					},
+					{
+						rotate: '260deg',
+						repeat: -1,
+						duration: 4,
+						ease: 'none'
+					}
+				);
+		});
+		// Desktop
+		mm.add('(min-width:992px)', () => {
 			gsap.set('#smolCircle', { translate: '49% 83%' });
 			timeline
 				.fromTo(
@@ -116,6 +232,7 @@
 						ease: 'none'
 					}
 				);
+		});
 	});
 </script>
 
