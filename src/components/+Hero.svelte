@@ -233,6 +233,8 @@
 					}
 				);
 		});
+
+		gsap.set('#introOverlay', { display: 'none' });
 	});
 </script>
 
@@ -243,6 +245,7 @@
 	/>
 </svelte:head> -->
 
+<div id="introOverlay" class="absolute left-0 top-0 z-50 h-full w-full bg-black"></div>
 <section class="hero">
 	<svg viewBox="0 0 100 100" id="gradientCircleFooter">
 		<defs>
