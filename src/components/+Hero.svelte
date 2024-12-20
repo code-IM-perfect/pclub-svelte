@@ -245,7 +245,7 @@
 	/>
 </svelte:head> -->
 
-<div id="introOverlay" class="absolute left-0 top-0 z-50 h-full w-full bg-black"></div>
+<div id="introOverlay" class="absolute left-0 top-0 z-50 h-full w-full bg-[var(--dark)]"></div>
 <section class="hero">
 	<svg viewBox="0 0 100 100" id="gradientCircleFooter">
 		<defs>
@@ -280,7 +280,7 @@
 		<g>
 			<use x="0" y="0" xlink:href="#gradCircle" id="circleClone" style="filter:url(#BlurFilter)" />
 			<circle style="fill:url(#linearGradient)" id="gradCircle" cx="50" cy="50" r="44" />
-			<circle style="fill:black" id="smolCircle" cx="0" cy="0" r="13" />
+			<circle id="smolCircle" cx="0" cy="0" r="13" />
 		</g>
 	</svg>
 	<!-- <div id="smolBlackCircle" class="absolute"></div> -->
@@ -309,6 +309,7 @@
 	}
 	#smolCircle {
 		scale: 0.7;
+		fill: var(--dark);
 	}
 	section.hero {
 		height: 100vh;
