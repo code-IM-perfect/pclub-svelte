@@ -26,6 +26,9 @@
 			url: 'https://www.youtube.com/@pclubiitk'
 		}
 	];
+
+	var d = new Date();
+	const year = d.getFullYear();
 </script>
 
 <footer>
@@ -60,7 +63,7 @@
 			</p>
 		</a>
 	</div>
-	<p id="attr">©&nbsp;&nbsp;{Date.prototype.getFullYear()}&nbsp;&nbsp;Programming Club IITK</p>
+	<p id="attr">©&nbsp;&nbsp;{year}&nbsp;&nbsp;Programming Club IITK</p>
 </footer>
 
 <style>
