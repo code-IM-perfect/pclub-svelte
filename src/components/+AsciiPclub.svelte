@@ -7090,4 +7090,7 @@
 	span {
 		font-family: 'JetBrains Mono', monospace;
 	}
+	.wh {
+		color: #fff;
+	}
 </style>
