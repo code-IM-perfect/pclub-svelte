@@ -4,6 +4,13 @@
 
 	let navVisible = $state(false);
 
+	let overflowState = $derived(navVisible ? 'hidden' : 'auto');
+
+	function toggleNav() {
+		navVisible = !navVisible;
+		// document.body.style.overflowY = navVisible ? 'hidden' : 'auto';
+		document.body.style.overflowY = overflowState;
+	}
 </script>
 
 <header>
