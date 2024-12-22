@@ -1,4 +1,9 @@
-<nav>
+<script>
+	import { expoInOut } from 'svelte/easing';
+	import { fade } from 'svelte/transition';
+</script>
+
+<nav transition:fade={{ duration: 400, easing: expoInOut }}>
 	<ul>
 		<li id="home">
 			<a href="/">
