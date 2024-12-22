@@ -1,5 +1,9 @@
 <script>
+	import Navigation from './+Navigation.svelte';
 	import logo from '$lib/images/brand/pclublogoSmol.avif';
+
+	let navVisible = $state(false);
+
 </script>
 
 <header>
@@ -7,9 +11,15 @@
 		<img src={logo} alt="pclub logo" />
 		<!-- <h2>pclub</h2> -->
 	</div>
+	{#if navVisible}
+		<Navigation />
+	{/if}
 	<div class="buttons">
 		<button class="search" aria-label="search">
 			<i class="fa-solid fa-magnifying-glass"></i>
+		</button>
+		<button aria-label="menu-toggle" class="hamburgerMenu" onclick={toggleNav}>
+			<i class={navVisible ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>
 		</button>
 	</div>
 </header>
