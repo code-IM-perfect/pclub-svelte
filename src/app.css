@@ -4,9 +4,12 @@
 
 :root {
 	--dark: black;
+	/* --dark: #09283e; */
 	--light: white;
-	--primary: #94dfff;
-	--secondary: #fbd16d;
+	--primary: #69ebff;
+	--secondary: #fff96e;
+	/* --primary: #94dfff;
+	--secondary: #fbd16d; */
 }
 
 body {
