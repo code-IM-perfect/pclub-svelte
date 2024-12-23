@@ -29,6 +29,7 @@
 </script>
 
 <footer>
+	<div id="dropShadow"></div>
 	<div class="topCircle Circle">
 		<div class="gradCircle circle gradBlur"></div>
 		<div class="gradCircle circle"></div>
@@ -87,8 +88,11 @@
 	footer {
 		position: relative;
 		overflow-x: clip;
+		overflow-y: clip;
+		overflow-clip-margin: 2.5vh;
 		height: 100vh;
 		z-index: 2;
+		margin-top: 3vh;
 
 		--grad: linear-gradient(
 			#4099c5 0%,
@@ -103,6 +107,17 @@
 		display: grid;
 		place-items: center;
 
+		& #dropShadow {
+			position: absolute;
+			width: 100%;
+			height: 2.5vh;
+			top: -2.5vh;
+			z-index: -6;
+			background: linear-gradient(
+				color-mix(in srgb, var(--dark) 100%, transparent),
+				color-mix(in srgb, var(--dark) 0%, transparent)
+			);
+		}
 		& h2 {
 			position: relative;
 			font-size: 6vw;
