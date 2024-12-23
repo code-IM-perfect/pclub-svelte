@@ -3,10 +3,10 @@
 @import 'tailwindcss/utilities';
 
 :root {
-	--dark: black;
+	--dark: #111;
 	/* --dark: #09283e; */
 	--light: white;
-	--primary: #69ebff;
+	--primary: #6aebff;
 	--secondary: #fff96e;
 	/* --primary: #94dfff;
 	--secondary: #fbd16d; */
