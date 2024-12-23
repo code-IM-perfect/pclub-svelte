@@ -1,8 +1,13 @@
 <script>
 	import Navigation from './+Navigation.svelte';
+	import { afterNavigate } from '$app/navigation';
 	import logo from '$lib/images/brand/pclublogoSmol.avif';
 
 	let navVisible = $state(false);
+
+	afterNavigate(() => {
+		navVisible = false;
+	});
 
 	let overflowState = $derived(navVisible ? 'hidden' : 'auto');
 
@@ -90,7 +95,7 @@
 				color: var(--light);
 				cursor: pointer;
 				i {
-				transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+					transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 				}
 			}
 
