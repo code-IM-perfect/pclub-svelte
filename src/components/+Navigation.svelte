@@ -350,6 +350,7 @@
 
 <style>
 	nav {
+		user-select: none;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -357,7 +358,7 @@
 		bottom: 0;
 		height: 100vh;
 		width: 100vw;
-		z-index: 2;
+		z-index: 50;
 		/* opacity: 0; */
 		background: var(--dark);
 		/* animation: fadeIn 0.5s 1; */
@@ -385,6 +386,7 @@
 			/* text-decoration: underline wavy 0.19rem yellow; */
 			/* text-underline-offset: 0.4rem; */
 			/* text-decoration-skip-ink: none; */
+			transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 
 			svg {
 				position: absolute;
@@ -394,37 +396,149 @@
 				right: 0;
 				left: 0;
 				stroke: var(--secondary);
+
+				path {
+					transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+				}
 			}
 		}
 
-		#home {
+		#home svg {
 			translate: 0.15rem;
 			path {
 				stroke-dasharray: calc(1px + 7 * 37px) 10000px;
 			}
 		}
-		#about {
+		#about svg {
 			translate: 0.15rem;
 			path {
 				stroke-dasharray: calc(7 * 37px) 10000px;
 			}
 		}
-		#blogs {
+		#blogs svg {
 			translate: 0.4rem;
 			path {
 				stroke-dasharray: calc(6 * 37px) 10000px;
 			}
 		}
-		#roadmaps {
+		#roadmaps svg {
 			translate: 0.35rem;
 			path {
 				stroke-dasharray: calc(12 * 37.2px) 10000px;
 			}
 		}
-		#projects {
+		#projects svg {
 			translate: 0.1rem;
 			path {
 				stroke-dasharray: calc(9 * 37.1px) 10000px;
+			}
+		}
+	}
+	@media (min-width: 769px) {
+		nav {
+			& a {
+				font-size: 6vh;
+
+				& svg {
+					height: 1.4vh;
+				}
+			}
+			& #home svg {
+				translate: -0.6%;
+				path {
+					stroke-dasharray: calc(2px + 10 * 37px) 10000px;
+				}
+			}
+			& #about svg {
+				translate: -0.4%;
+				path {
+					stroke-dasharray: calc(3px + 10 * 37px) 10000px;
+				}
+			}
+			& #blogs svg {
+				translate: -0.2%;
+				path {
+					stroke-dasharray: calc(2px + 9 * 37px) 10000px;
+				}
+			}
+			& #projects svg {
+				translate: -0.4%;
+				path {
+					stroke-dasharray: calc(13 * 37.1px) 10000px;
+				}
+			}
+			& #roadmaps svg {
+				translate: -0.1%;
+				path {
+					stroke-dasharray: calc(1px + 17 * 37.2px) 10000px;
+				}
+			}
+		}
+	}
+	@media (hover: hover) and (min-width: 769px) {
+		nav {
+			& a {
+				color: white;
+
+				& svg {
+					visibility: hidden;
+				}
+			}
+			& a:hover {
+				color: var(--primary);
+				svg {
+					visibility: visible;
+				}
+			}
+			& #home svg {
+				path {
+					stroke-dasharray: 0 10000px;
+				}
+			}
+			& #about svg {
+				path {
+					stroke-dasharray: 0 10000px;
+				}
+			}
+			& #blogs svg {
+				path {
+					stroke-dasharray: 0 10000px;
+				}
+			}
+			& #projects svg {
+				path {
+					stroke-dasharray: 0 10000px;
+				}
+			}
+			& #roadmaps svg {
+				path {
+					stroke-dasharray: 0 10000px;
+				}
+			}
+			& #home:hover svg {
+				path {
+					stroke-dasharray: calc(2px + 10 * 37px) 10000px;
+				}
+			}
+			& #about:hover svg {
+				path {
+					stroke-dasharray: calc(3px + 10 * 37px) 10000px;
+				}
+			}
+			& #blogs:hover svg {
+				path {
+					stroke-dasharray: calc(2px + 9 * 37px) 10000px;
+				}
+			}
+			& #projects:hover svg {
+				path {
+					stroke-dasharray: calc(13 * 37.1px) 10000px;
+				}
+			}
+			& #roadmaps:hover svg {
+				path {
+					stroke-dasharray: calc(1px + 17 * 37.2px) 10000px;
+				}
 			}
 		}
 	}
