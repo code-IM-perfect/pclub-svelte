@@ -279,4 +279,22 @@
 				animation-duration: 7s;
 			}
 		}
+	}
+
+	@keyframes rotating {
+		0% {
+			rotate: 0turn;
+		}
+		100% {
+			rotate: 1turn;
+		}
+	}
+	/* @keyframes scaleout {
+		0% {
+			scale: 0;
+		}
+		100% {
+			scale: 1;
+		}
+	} */
 </style>
