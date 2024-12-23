@@ -60,7 +60,7 @@
 			</p>
 		</a>
 	</div>
-	<p id="attr">©&nbsp;&nbsp;2025&nbsp;&nbsp;Programming Club IITK</p>
+	<p id="attr">©&nbsp;&nbsp;{Date.prototype.getFullYear()}&nbsp;&nbsp;Programming Club IITK</p>
 </footer>
 
 <style>
