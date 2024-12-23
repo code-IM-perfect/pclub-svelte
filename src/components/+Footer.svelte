@@ -62,6 +62,28 @@
 </footer>
 
 <style>
+	footer:has(.socials a#Instagram:hover) {
+		--grad: linear-gradient(72.44deg, #ff7a00 11.92%, #ff0169 51.56%, #d300c5 85.69%);
+	}
+	footer:has(.socials a#Github:hover) {
+		/* color: ; */
+		--grad: linear-gradient(lightgreen, seagreen);
+		--hovSize: 1.7;
+	}
+	footer:has(.socials a#LinkedIn:hover) {
+		--grad: linear-gradient(#5ab6e7, #0a66c2);
+	}
+	footer:has(.socials a#YouTube:hover) {
+		--grad: linear-gradient(#ff6f6f, #ff0000);
+	}
+	footer:has(.socials a#X:hover) {
+		--grad: linear-gradient(#82e4ff, #1d9bf0);
+		--hovSize: 2;
+	}
+	footer:has(.socials a#Discord:hover) {
+		--grad: linear-gradient(#b093fa, #4c5bff);
+		--hovSize: 1.6;
+	}
 	footer {
 		position: relative;
 		overflow-x: clip;
@@ -118,6 +140,37 @@
 
 				box-shadow: 0 0 4vw 0.7vw var(--hovCol);
 			} */
+		}
+
+		& .socialButton:hover {
+			background: var(--grad);
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			text-decoration: none;
+			scale: var(--hovSize);
+		}
+
+		& .socialButton:active {
+			scale: 0.1;
+		}
+		& a#Github {
+			--hovSize: 1.6;
+		}
+		& a#X {
+			--hovSize: 2;
+		}
+		& a#Discord {
+			--hovSize: 1.6;
+		}
+
+		& a#X .fa-twitter,
+		a#X:hover .fa-x-twitter {
+			display: none;
+		}
+
+		& a#X:hover .fa-twitter {
+			display: inline;
 		}
 
 		/* & a#Instagram {
