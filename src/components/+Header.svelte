@@ -89,7 +89,9 @@
 				padding: 0;
 				color: var(--light);
 				cursor: pointer;
+				i {
 				transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+				}
 			}
 
 			& .hamburgerMenu {
