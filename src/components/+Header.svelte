@@ -48,7 +48,8 @@
 
 			img {
 				height: 2.8rem;
-				width: 2.8rem;
+				aspect-ratio: 1;
+				/* width: 2.8rem; */
 			}
 
 			/* h2 {
@@ -93,7 +94,25 @@
 
 			& .hamburgerMenu {
 				position: relative;
-				z-index: 3;
+				z-index: 51;
+			}
+		}
+	}
+	@media only screen and (min-width: 769px) {
+		header {
+			margin: 0 2vw;
+			& .logo {
+				padding: 2vh 1vw;
+				img {
+					height: 6vh;
+					/* width: 5vh; */
+				}
+			}
+			& .buttons {
+				/* gap: 2vw; */
+				i {
+					font-size: 3vh;
+				}
 			}
 		}
 	}
