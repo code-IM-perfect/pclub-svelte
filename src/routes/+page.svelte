@@ -1277,6 +1277,19 @@
 			}
 		}
 	}
+	@media (min-width: 769px) and (max-width: 1050px) {
+		section.desktop {
+			.ascii {
+				margin-top: 2vh;
+				font-size: 0.25vh;
+				letter-spacing: 0.001vw;
+				line-height: 1.2;
+			}
+			.neofetch .output p {
+				font-size: 1.5vh;
+			}
+		}
+	}
 	@keyframes blinking {
 		0% {
 			opacity: 0;
