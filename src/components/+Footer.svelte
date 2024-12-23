@@ -60,6 +60,7 @@
 			</p>
 		</a>
 	</div>
+	<p id="attr">©&nbsp;&nbsp;2025&nbsp;&nbsp;Programming Club IITK</p>
 </footer>
 
 <style>
@@ -294,6 +295,18 @@
 				animation-duration: 7s;
 			}
 		}
+		& #attr {
+			position: absolute;
+			bottom: 0.1rem;
+			font-size: 0.9rem;
+			z-index: 10;
+			color: white;
+			background-color: rgba(41, 41, 41, 0.404);
+			padding: 0.2rem 0.8rem;
+			border-radius: 0.4rem;
+			backdrop-filter: blur(1rem);
+		}
+	}
 	}
 
 	@keyframes rotating {
