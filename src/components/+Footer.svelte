@@ -307,6 +307,47 @@
 			backdrop-filter: blur(1rem);
 		}
 	}
+
+	@media (min-width: 769px) {
+		footer {
+			& h2 {
+				font-size: 3vh;
+			}
+
+			& .socialButton {
+				font-size: 6vh;
+				padding: 0vh 5vw;
+				margin: 0.5vh 0;
+			}
+
+			& .topCircle {
+				height: 90vh;
+				right: 5%;
+				top: -8%;
+			}
+
+			& .botCircle {
+				height: 90vh;
+				bottom: -15%;
+				left: 10%;
+			}
+		}
+	}
+
+	@media (hover: hover) and (min-width: 992px) {
+		footer {
+			& .topCircle {
+				height: 110vh;
+				right: 8%;
+				top: -8%;
+			}
+
+			& .botCircle {
+				height: 110vh;
+				bottom: -10%;
+				left: 10%;
+			}
+		}
 	}
 
 	@keyframes rotating {
