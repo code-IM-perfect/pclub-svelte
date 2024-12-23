@@ -74,7 +74,7 @@
 			</a>
 		</li>
 		<li id="about">
-			<a href="/about.html"
+			<a href="/about"
 				>About
 				<svg
 					class="wavyUnderline"
@@ -142,7 +142,7 @@
 			</a>
 		</li>
 		<li id="blogs">
-			<a href="/blogs.html"
+			<a href="/blogs"
 				>Blogs
 				<svg
 					class="wavyUnderline"
@@ -210,7 +210,7 @@
 			</a>
 		</li>
 		<li id="projects">
-			<a href="/projects.html"
+			<a href="/projects"
 				>Projects
 				<svg
 					class="wavyUnderline"
@@ -278,7 +278,7 @@
 			</a>
 		</li>
 		<li id="roadmaps">
-			<a href="/roadmaps.html"
+			<a href="/roadmaps"
 				>Roadmaps
 				<svg
 					class="wavyUnderline"
