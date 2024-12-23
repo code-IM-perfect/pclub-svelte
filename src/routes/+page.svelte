@@ -312,3 +312,513 @@
 </section>
 
 <Featured />
+
+<style>
+	/* hiding stuff */
+	section.desktop {
+		.widget,
+		.terminal {
+			display: none;
+			opacity: 0;
+		}
+
+		.neofetch,
+		.post-command,
+		.man,
+		.links,
+		.sudo,
+		.screenOfDeath,
+		.screenOfDeath .jk {
+			display: none;
+		}
+	}
+
+	/* Desktop Styling */
+	section.desktop {
+		height: 100vh;
+		margin-top: 30vh;
+		background-image: url('$lib/images/homePage/wallpaper.avif');
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		font-family: 'JetBrains Mono', monospace;
+		animation: 2s step-end infinite;
+		place-items: center;
+
+		/* filter: grayscale(50%); */
+
+		/* overflow-y: hidden; */
+
+		.bar {
+			margin: 0.8vh 1.1vw;
+			height: 4vh;
+			background-color: rgba(0, 0, 0, 0.75);
+			border-color: rgba(0, 0, 0, 0);
+			border-width: 1rem;
+			border-radius: 1vh;
+			font-family: 'Poppins', sans-serif;
+			font-size: 1.4vh;
+			font-weight: 600;
+			display: flex;
+			justify-content: space-between;
+
+			.widget {
+				margin: 0.5vh 0.5vw;
+				padding: 0.3vh 0.5vw;
+				border-radius: 0.5vh;
+				background-color: #1a2b3381;
+				color: white;
+				display: flex;
+				align-items: center;
+			}
+
+			.arch-icon {
+				padding: 0.3vh 0.3vw;
+				height: 2.8vh;
+				/* width: 2.8vh; */
+			}
+
+			.user-icon {
+				margin: 0.3vh 0.5vw;
+				padding: 0.3vh 0.3vh;
+				width: 2.8vh;
+				height: 2.8vh;
+				border-radius: 100%;
+				background-color: #253a44c4;
+			}
+
+			.left {
+				display: flex;
+				margin-left: 0.5vw;
+				align-items: center;
+
+				.tagList {
+					.tag {
+						margin: 0 0.3vw;
+						color: #7a8c96;
+					}
+
+					#tag-1 {
+						color: lightskyblue;
+					}
+
+					#tag-2,
+					#tag-3,
+					#tag-4 {
+						color: white;
+					}
+				}
+			}
+
+			.right {
+				display: flex;
+				margin-right: 0.7vw;
+				align-items: center;
+
+				.expand p {
+					scale: 0.5 1;
+					translate: 0 -5%;
+				}
+
+				.expand {
+					margin: 0.5vh 0vw;
+					padding: 0.3vh 0.3vw;
+				}
+			}
+		}
+
+		.terminal-window {
+			margin: 1vh 1vw;
+			height: 92.5%;
+			border-radius: 1vh;
+			background-color: rgba(0, 0, 0, 0.75);
+			/* box-shadow: 0px 1px 0.7rem rgba(0, 0, 0, 0.8); */
+			backdrop-filter: blur(1rem);
+			-webkit-backdrop-filter: blur(1rem);
+			padding: 4vh 7vh;
+			display: flex;
+			overflow: hidden;
+
+			.terminal {
+				/* border: white solid 1px; */
+				width: 100%;
+				color: #fff;
+				overflow-y: auto;
+				scrollbar-width: none;
+				position: relative;
+
+				p,
+				a {
+					margin: 0;
+					font-size: 2.2vh;
+				}
+
+				.man {
+					p {
+						font-size: 2vh;
+					}
+
+					h6 {
+						text-transform: uppercase;
+						font-size: 2.3vh;
+						margin: 2.5vh 0 1.7vh;
+					}
+
+					.manContent p {
+						margin: 2vh 5vw;
+					}
+
+					.manBottomLine {
+						position: fixed;
+						translate: 0 -50%;
+						bottom: 0;
+						background-color: white;
+						color: #061014;
+
+						p {
+							margin: 0;
+							font-size: 1.5vh;
+						}
+					}
+
+					a.manInstagram {
+						color: white;
+						text-decoration: white underline 1px;
+						position: relative;
+					}
+
+					a.manInstagram:hover::after {
+						content: '';
+						position: absolute;
+						bottom: 1px;
+						left: 0;
+						height: 2px;
+						width: 100%;
+						background: linear-gradient(
+							45deg,
+							#ffa94d 0%,
+							#ff8c63 25%,
+							#ff4b66 50%,
+							#ff4e95 75%,
+							#ff34bf 100%
+						);
+					}
+
+					a.manInstagram:hover {
+						background: linear-gradient(
+							45deg,
+							#ffa94d 0%,
+							#ff8c63 25%,
+							#ff4b66 50%,
+							#ff4e95 75%,
+							#ff34bf 100%
+						);
+						background-clip: text;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+					}
+
+					a.manDiscord {
+						color: white;
+					}
+
+					a.manDiscord:hover {
+						color: #7d4bf7;
+						text-decoration: solid underline 2px;
+					}
+				}
+
+				.links {
+					a {
+						text-decoration: none;
+						color: white;
+					}
+
+					a:hover span.arrow {
+						margin-left: 1.5rem;
+					}
+
+					p.sepHead {
+						color: #9ece6a;
+						font-size: 3vh;
+					}
+
+					.instagr {
+						background: linear-gradient(
+							45deg,
+							#ffa94d 0%,
+							#ff8c63 25%,
+							#ff4b66 50%,
+							#ff4e95 75%,
+							#ff34bf 100%
+						);
+						background-clip: text;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+					}
+
+					.githb {
+						color: #cacaca;
+					}
+
+					.lnkdin {
+						color: #2e87b8;
+					}
+
+					.youtb {
+						color: #ff4a4a;
+					}
+
+					.x-twtr {
+						color: #08baeb;
+					}
+
+					.discrd {
+						color: #976eff;
+					}
+
+					.key {
+						color: #7dcfff;
+					}
+
+					.key i {
+						color: #7dcfff;
+					}
+				}
+
+				span.user {
+					color: #9ece6a;
+				}
+
+				.input {
+					color: #f7768e;
+				}
+
+				.arg {
+					color: #7dcfff;
+				}
+			}
+
+			.terminal::-webkit-scrollbar {
+				width: 0;
+				height: 0;
+			}
+		}
+
+		.screenOfDeath {
+			color: white;
+			height: 90vh;
+			place-items: center;
+			font-family: 'Poppins', sans-serif;
+
+			h3 {
+				font-size: 9vh;
+				margin: 2vh auto;
+				font-weight: 600;
+			}
+
+			h4 {
+				font-size: 4.5vh;
+				letter-spacing: 0.1vh;
+				margin: 0 auto;
+				font-weight: 600;
+			}
+
+			.lowMess {
+				margin: 2vh auto;
+			}
+
+			p {
+				font-size: 2vh;
+				margin: 1vh auto;
+			}
+		}
+
+		.neofetch {
+			display: flex;
+			margin-top: 5vh;
+
+			.output {
+				margin-left: 8vw;
+
+				.userLine {
+					color: #f7768e;
+				}
+			}
+
+			.key {
+				color: #7dcfff;
+			}
+		}
+
+		.ascii {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.44vh;
+			font-weight: bold;
+			letter-spacing: 0.01vh;
+			line-height: 1.2;
+		}
+
+		/* .ascii span {
+			font-family: 'JetBrains Mono', monospace;
+		} */
+
+		.caret {
+			animation: blinking 1s ease-out infinite;
+		}
+
+		.comName {
+			text-decoration: solid underline;
+		}
+
+		.topline {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	/* Phone only for the Desktop animation */
+	@media (max-width: 768px) {
+		section.desktop {
+			.bar .left {
+				width: 40vw;
+			}
+
+			.terminal-window {
+				padding: 2vh 2vh 3vh;
+				/* height: 88vh; */
+
+				.terminal {
+					p,
+					a {
+						font-size: 2vh;
+					}
+
+					p.sudo {
+						font-size: 1.5vh;
+					}
+
+					.neofetch {
+						margin-top: 0.5vh;
+
+						p {
+							font-size: 1.7vh;
+						}
+
+						.output {
+							margin-left: 1.5vw;
+						}
+
+						.ascii {
+							display: none;
+						}
+					}
+
+					.man {
+						p,
+						a,
+						h6 {
+							font-size: 1.9vh;
+						}
+
+						.manContent p {
+							margin: 2vh 2vw;
+						}
+
+						.manBottomLine {
+							translate: 0 -40%;
+
+							p {
+								margin: 0;
+								font-size: 1.5vh;
+							}
+						}
+
+						a.manInstagram {
+							text-decoration: none;
+							background: linear-gradient(
+								45deg,
+								#ffa94d 0%,
+								#ff8c63 25%,
+								#ff4b66 50%,
+								#ff4e95 75%,
+								#ff34bf 100%
+							);
+							background-clip: text;
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
+						}
+
+						a.manInstagram::after {
+							content: '';
+							position: absolute;
+							bottom: 1px;
+							left: 0;
+							height: 1px;
+							width: 100%;
+							background: linear-gradient(
+								45deg,
+								#ffa94d 0%,
+								#ff8c63 25%,
+								#ff4b66 50%,
+								#ff4e95 75%,
+								#ff34bf 100%
+							);
+						}
+
+						a.manDiscord {
+							color: #7d4bf7;
+							text-decoration: solid underline 1px;
+						}
+					}
+
+					.links a span.arrow {
+						margin-left: 0.2rem;
+					}
+				}
+			}
+
+			.screenOfDeath {
+				place-items: center;
+
+				div {
+					max-width: 90vw;
+				}
+
+				h3 {
+					font-size: 6vh;
+					margin: 2vh auto;
+					font-weight: 600;
+				}
+
+				h4 {
+					font-size: 3vh;
+					letter-spacing: 0.1vh;
+					margin: 0 auto;
+					font-weight: 600;
+				}
+
+				.lowMess {
+					margin: 2vh auto;
+				}
+
+				p {
+					font-size: 1.7vh;
+					margin: 1vh auto;
+				}
+
+				p br {
+					display: none;
+				}
+			}
+
+			.comName {
+				text-decoration: solid underline;
+			}
+
+			.topline {
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+	}
+</style>
