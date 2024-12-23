@@ -14,10 +14,10 @@
 </script>
 
 <header>
-	<div class="logo">
+	<a href="/" class="logo">
 		<img src={logo} alt="pclub logo" />
 		<!-- <h2>pclub</h2> -->
-	</div>
+	</a>
 	{#if navVisible}
 		<Navigation />
 	{/if}
@@ -58,6 +58,15 @@
 				color: var(--light);
 			} */
 		}
+		& .logo:hover,
+		button:hover i {
+			scale: 1.5;
+		}
+		& .logo:active,
+		button:active i {
+			scale: 0.25;
+		}
+
 		& .buttons {
 			display: flex;
 
