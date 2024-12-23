@@ -29,6 +29,16 @@
 </script>
 
 <footer>
+	<div class="topCircle Circle">
+		<div class="gradCircle circle gradBlur"></div>
+		<div class="gradCircle circle"></div>
+		<div class="blackCircle circle"></div>
+	</div>
+	<div class="botCircle Circle">
+		<div class="gradCircle circle gradBlur"></div>
+		<div class="gradCircle circle"></div>
+		<div class="blackCircle circle"></div>
+	</div>
 	<div class="socials relative grid place-items-center text-center">
 		<h2>Find us here</h2>
 		{#each socials as social}
@@ -54,10 +64,23 @@
 <style>
 	footer {
 		position: relative;
+		overflow-x: clip;
 		height: 100vh;
 		z-index: 2;
+
+		--grad: linear-gradient(
+			#4099c5 0%,
+			#13a9c2 12.45395%,
+			#00b6b6 24.959615%,
+			#38c2a2 39.623725%,
+			#69cb8a 52.747399%,
+			#99d075 69.012517%,
+			#cad268 81.63445%,
+			#fbe76b 100%
+		);
 		display: grid;
 		place-items: center;
+
 		& h2 {
 			position: relative;
 			font-size: 6vw;
@@ -146,4 +169,61 @@
 		}
 			*/
 
+		& .Circle {
+			aspect-ratio: 1;
+			position: absolute;
+			z-index: -11;
+		}
+		& .circle {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			position: absolute;
+		}
+		& .gradCircle {
+			background: var(--grad);
+			z-index: -9;
+			transition: background-color 1s ease-in-out;
+
+			animation-name: rotating;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+		/* & .gradCircle::before {
+			content: '';
+			position: absolute;
+			inset: 0.5rem;
+			border-radius: 50%;
+			z-index: -1;
+			background: var(--grad);
+			filter: blur(1.5rem);
+		} */
+		& .gradBlur {
+			filter: blur(0.9rem);
+			scale: 1.01;
+			z-index: -10;
+		}
+		& .blackCircle {
+			background-color: var(--dark);
+			z-index: -5;
+			scale: 0.78;
+		}
+		& .topCircle {
+			height: 55vh;
+			translate: 50% -50%;
+			top: 0;
+			right: 0;
+			& .gradCircle {
+				animation-duration: 8s;
+			}
+		}
+		& .botCircle {
+			height: 40vh;
+			translate: -50% 50%;
+			bottom: 0;
+			left: 0;
+			& .gradCircle {
+				animation-duration: 7s;
+			}
+		}
 </style>
