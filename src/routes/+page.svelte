@@ -467,6 +467,11 @@
 		href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
 		rel="stylesheet"
 	/>
+	<title>Programming Club IITK</title>
+	<meta
+		name="description"
+		content="Programming Club (or Pclub) is a community of students from IIT Kanpur that are highly enthusiastic about coding, ethical hacking, Web Designing and all other aspects of programming. We are a team currently of 4 coordinators (pre-final year) and 24 secretaries (sophomores)."
+	/>
 </svelte:head>
 
 <Hero />
