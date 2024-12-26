@@ -210,6 +210,9 @@
 	}
 
 	@media (max-width: 768px) {
+		.noMobile {
+			display: none;
+		}
 		main#cont {
 			height: 120vh;
 			& #aboutContainer {
