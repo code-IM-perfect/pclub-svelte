@@ -1,0 +1,38 @@
+{
+    "c": {
+        "name": "Burhanuddin Merchant",
+        "number": "8815992866",
+        "mail": "bmerchant22@iitk.ac.in",
+        "insta": "merchant_burhanuddin53",
+        "github": "bmerchant22",
+        "image": "teamImages/currentCordies/burhan.jpg",
+        "linkedin": "burhanuddin-merchant-23622a254"
+    },
+    "o": {
+        "name": "Divyansh Garg",
+        "number": "9818970175",
+        "mail": "divyanshg22@iitk.ac.in",
+        "insta": "_divyansh._.garg",
+        "github": "hash-brow",
+        "image": "teamImages/currentCordies/divyansh.jpg",
+        "linkedin": "divyansh-garg-780a94252"
+    },
+    "r": {
+        "name": "Hardik Jindal",
+        "number": "9582890169",
+        "mail": "hardikj22@iitk.ac.in",
+        "insta": "hardikj_1408",
+        "github": "hardik1408",
+        "image": "teamImages/currentCordies/hardik.jpg",
+        "linkedin": "hardik-jindal-1a2176250"
+    },
+    "d": {
+        "name": "Yash Pratap Singh",
+        "number": "7007519537",
+        "mail": "yashps22@iitk.ac.in",
+        "insta": "yps_8181",
+        "github": "its-me-yps",
+        "image": "teamImages/currentCordies/yashps.png",
+        "linkedin": "its-me-yps"
+    }
+}
