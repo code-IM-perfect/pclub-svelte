@@ -291,8 +291,8 @@
 		}}>yooooo</button
 	> -->
 	<div class="titleBox">
-		<h1>Welcome to</h1>
-		<h2>Programming Club</h2>
+		<h2>Welcome to</h2>
+		<h1>Programming Club</h1>
 		<p>Talk is cheap, Show us the Code.</p>
 	</div>
 </section>
@@ -318,7 +318,7 @@
 			bottom: 5vh;
 			left: 5%;
 		}
-		& h1 {
+		& h2 {
 			font-size: 6rem;
 			font-weight: 500;
 			color: #fff96e;
@@ -329,7 +329,7 @@
 			/* margin-bottom: -8.5vh; */
 			/* translate: 0 50%; */
 		}
-		& h2 {
+		& h1 {
 			/* font-family: 'Montserrat', serif; */
 			font-size: 6rem;
 			font-weight: 800;
@@ -363,10 +363,10 @@
 				margin: 0;
 				text-align: center;
 			}
-			& h1 {
+			& h2 {
 				font-size: 10vw;
 			}
-			& h2 {
+			& h1 {
 				font-size: 12vw;
 				line-height: 1.1;
 			}
