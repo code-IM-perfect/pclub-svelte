@@ -209,6 +209,25 @@
 		}
 	}
 
+	@media (max-width: 768px) {
+		main#cont {
+			height: 120vh;
+			& #aboutContainer {
+				height: 100vh;
+				display: grid;
+				place-items: center;
+			}
+		}
+		#aboutWindow {
+			/* border-radius: 2vh; */
+			padding: 3vw 4vw;
+			/* margin: 0 5vw; */
+			p {
+				margin: 2vw 0;
+				font-size: 4vw;
+			}
+		}
+	}
 
 	@keyframes popup {
 		0% {
