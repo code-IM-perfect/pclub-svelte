@@ -6,7 +6,14 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
-	preprocess: [vitePreprocess(), mdsvex()],
+	preprocess: [vitePreprocess(), mdsvex({
+		layout: {
+			blog: './src/layouts/blog.svelte',
+			roadmap: './src/layouts/roadmap.svelte',
+			project: './src/layouts/project.svelte',
+			_: './src/layouts/default.svelte'
+		}
+	})],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
