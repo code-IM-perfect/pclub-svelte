@@ -28,6 +28,7 @@ To run a developmental build server locally, you need to-
 ## TODO
 - Look for clever neofetch entries
 - Replace About Us text
+- Add title and description on all pages
 - Add secy listing
 - Add old cordie pofiles
 - Migrate Roadmaps
