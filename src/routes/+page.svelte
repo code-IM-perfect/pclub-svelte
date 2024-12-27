@@ -31,6 +31,382 @@
 
 		let mm = gsap.matchMedia();
 
+		mm.add('max-width:768px', () => {
+			desktopTimeline
+				.from('section.desktop', {
+					opacity: 0,
+					scale: 0.5,
+					filter: 'blur(3rem)',
+					duration: 2
+				})
+				.fromTo(
+					'.bar',
+					{
+						scaleX: 0,
+						scaleY: 0.1
+					},
+					{
+						scaleX: 1,
+						scaleY: 0.1,
+						duration: 0.75
+					},
+					'+=1'
+				)
+				.to('.bar', {
+					scale: 1,
+					duration: 0.25
+				})
+				.to('.widget', {
+					opacity: 1,
+					display: 'flex',
+					ease: 'power2.in',
+					duration: 0.5
+				})
+				.fromTo(
+					'.terminal-window',
+					{
+						scaleX: 0.01,
+						scaleY: 0
+					},
+					{
+						scaleY: 1,
+						ease: 'expo.out'
+					},
+					'+=1'
+				)
+				.to(
+					'.terminal-window',
+					{
+						scale: 1,
+						duration: 2,
+						ease: 'expo.out'
+					},
+					'-=15%'
+				)
+				.to(
+					'.terminal',
+					{
+						display: 'block',
+						opacity: 1,
+						ease: 'power2.in',
+						duration: 0.5
+					},
+					'+=0.25'
+				)
+				.set(
+					'.pre-command .caret',
+					{
+						animationName: 'none'
+					},
+					'+=1'
+				)
+				.to('.pre-command .input', {
+					text: {
+						value: 'neofetch',
+						speed: 0.5
+					}
+				})
+				.set(
+					'.pre-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'-=0.15'
+				)
+				.set('.caret', {
+					animationName: 'blinking'
+				})
+				.set(
+					'.pre-command .caret',
+					{
+						animationName: 'none',
+						opacity: 0
+					},
+					'+=0.75'
+				)
+				.set(
+					'.neofetch',
+					{
+						display: 'flex'
+					},
+					'+=0.5'
+				)
+				.from('.neofetch .output', {
+					text: {
+						value: '',
+						speed: 1
+					}
+				})
+				.set('.post-command', {
+					display: 'block'
+				})
+				.to(
+					'.post-command .input',
+					{
+						text: {
+							value: 'clear',
+							speed: 0.2
+						}
+					},
+					'+=4'
+				)
+				.set(
+					'.post-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'-=0.10'
+				)
+				.set(
+					'.neofetch, .post-command',
+					{
+						display: 'none'
+					},
+					'+=1'
+				)
+				.set('.pre-command .input', {
+					text: '',
+					color: '#f7768e'
+				})
+				.set('.pre-command .caret', {
+					animationName: 'blinking'
+				})
+				.to(
+					'.pre-command .input',
+					{
+						text: {
+							value: 'man',
+							speed: 0.2
+						}
+					},
+					'+=1'
+				)
+				.set(
+					'.pre-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'+=0'
+				)
+				.to('.pre-command .arg', {
+					text: {
+						value: ' pclub',
+						speed: 0.2
+					}
+				})
+				.set(
+					'.pre-command',
+					{
+						display: 'none'
+					},
+					'+=2'
+				)
+				.set('.man', {
+					display: 'block'
+				})
+				.set(
+					'.man',
+					{
+						display: 'none'
+					},
+					'+=4'
+				)
+				.set('.post-command .input', {
+					text: '',
+					color: '#f7768e'
+				})
+				.set('.pre-command,.post-command', {
+					display: 'block'
+				})
+				.set('.pre-command .caret', {
+					animationName: 'none',
+					opacity: 0
+				})
+				.to(
+					'.post-command .input',
+					{
+						text: {
+							value: 'clear',
+							speed: 0.2
+						}
+					},
+					'+=1.5'
+				)
+				.set(
+					'.post-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'-=0.10'
+				)
+				.set(
+					'.neofetch, .post-command',
+					{
+						display: 'none'
+					},
+					'+=0.25'
+				)
+				.set('.pre-command .input', {
+					text: '',
+					color: '#f7768e'
+				})
+				.set('.pre-command .arg', {
+					text: ''
+				})
+				.set('.pre-command .caret', {
+					animationName: 'blinking'
+				})
+				.to(
+					'.pre-command .input',
+					{
+						text: {
+							value: 'cat',
+							speed: 0.2
+						}
+					},
+					'+=1'
+				)
+				.set(
+					'.pre-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'+=0'
+				)
+				.to('.pre-command .arg', {
+					text: {
+						value: ' links',
+						speed: 0.2
+					}
+				})
+				.set(
+					'.pre-command .caret',
+					{
+						animationName: 'none',
+						opacity: 0
+					},
+					'+=0.5'
+				)
+				.set('.links', {
+					display: 'block'
+				})
+				.from('.links', {
+					text: {
+						value: '',
+						speed: 1
+					}
+				})
+				.set('.post-command .input', {
+					text: '',
+					color: '#f7768e'
+				})
+				.set('.post-command', {
+					display: 'block'
+				})
+				.to(
+					'.post-command .input',
+					{
+						text: {
+							value: 'sudo',
+							speed: 0.2
+						}
+					},
+					'+=4'
+				)
+				.set(
+					'.post-command .input',
+					{
+						color: '#7aa2f7'
+					},
+					'+=0'
+				)
+				.to('.post-command .arg', {
+					text: {
+						value: ' rm -rf /',
+						speed: 0.2
+					}
+				})
+				.set(
+					'.post-command .caret',
+					{
+						animationName: 'none',
+						opacity: 0
+					},
+					'+=1'
+				)
+				.set('.sudo', {
+					display: 'block'
+				})
+				.to(
+					'.sudoPass',
+					{
+						text: {
+							value: '*************',
+							speed: 0.5
+						}
+					},
+					'+=0.75'
+				)
+				.set(
+					'.sudo .caret',
+					{
+						animationName: 'none',
+						opacity: 1
+					},
+					'+=1'
+				)
+				.set(
+					'section.desktop',
+					{
+						animationName: 'crash'
+					},
+					'+=0'
+				)
+				.set(
+					'section.desktop',
+					{
+						animationName: 'none'
+					},
+					'+=2s'
+				)
+				.set(
+					'.terminal-window',
+					{
+						display: 'none'
+					},
+					'+=1.5'
+				)
+				.set(
+					'.bar',
+					{
+						display: 'none'
+					},
+					'+=2'
+				)
+				.set('section.desktop', {
+					filter: 'none',
+					background: '#0081de',
+					display: 'grid'
+				})
+				.set('.screenOfDeath', {
+					display: 'grid'
+				})
+				.set(
+					'.screenOfDeath .jk',
+					{
+						display: 'inline-block'
+					},
+					'+=3'
+				)
+				.set(
+					'section.desktop',
+					{
+						display: 'grid'
+					},
+					'+=4'
+				);
+		});
+
 		mm.add('min-width:789px', () => {
 			desktopTimeline
 				.from('section.desktop', {
