@@ -1147,6 +1147,8 @@
 			.terminal-window {
 				padding: 2vh 2vh 3vh;
 				/* height: 88vh; */
+				background: black;
+				backdrop-filter: none;
 
 				.terminal {
 					p,
