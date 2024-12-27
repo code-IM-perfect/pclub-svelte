@@ -31,7 +31,7 @@
 
 		let mm = gsap.matchMedia();
 
-		mm.add('max-width:768px', () => {
+		mm.add('(max-width:768px)', () => {
 			desktopTimeline
 				.from('section.desktop', {
 					opacity: 0,
@@ -407,7 +407,7 @@
 				);
 		});
 
-		mm.add('min-width:789px', () => {
+		mm.add('(min-width:789px)', () => {
 			desktopTimeline
 				.from('section.desktop', {
 					opacity: 0,
