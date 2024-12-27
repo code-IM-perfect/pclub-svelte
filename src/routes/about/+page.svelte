@@ -269,11 +269,11 @@
 				height: 100vh;
 				display: grid;
 				place-items: center;
-				background: var(--dark);
-				backdrop-filter: none;
 			}
 		}
 		#aboutWindow {
+			background: var(--dark);
+			backdrop-filter: none;
 			/* border-radius: 2vh; */
 			padding: 3vw 4vw;
 			/* margin: 0 5vw; */
