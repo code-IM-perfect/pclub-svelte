@@ -24,3 +24,13 @@ To run a developmental build server locally, you need to-
 3) Custom md is easy with `mdsvex`
 4) I was also considering 11ty but it still cannot match all the features of svelte, also their component system felt kinda hacky.
 5) Why not next? I don't like jsx/tsx.
+
+## TODO
+- Look for clever neofetch entries
+- Replace About Us text
+- Add secy listing
+- Add old cordie pofiles
+- Migrate Roadmaps
+- Migrate Projects
+- Migrate Blogs
+- Add search functionality
