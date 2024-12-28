@@ -35,3 +35,6 @@ To run a developmental build server locally, you need to-
 - Migrate Projects
 - Migrate Blogs
 - Add search functionality
+- Add documentation on
+    - How to write markdown, what's supported, the expected format, etc
+    - How the meta tools work
