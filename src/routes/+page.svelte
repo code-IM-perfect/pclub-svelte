@@ -25,7 +25,14 @@
 				start: 'top top',
 				end: '+=600%',
 				scrub: 2,
-				pin: true
+				pin: true,
+
+				snap: {
+					snapTo: 'labels',
+					duration: { min: 0.2, max: 1.5 },
+					delay: 0.2,
+					ease: 'power3.inOut'
+				}
 			}
 		});
 
@@ -93,6 +100,7 @@
 					},
 					'+=0.25'
 				)
+				.addLabel('terminalOpened')
 				.set(
 					'.pre-command .caret',
 					{
@@ -140,6 +148,11 @@
 				.set('.post-command', {
 					display: 'block'
 				})
+				.to('.post-command', {
+					display: 'block',
+					duration: 3
+				})
+				.addLabel('neofetchDisplayed')
 				.to(
 					'.post-command .input',
 					{
@@ -194,6 +207,10 @@
 						speed: 0.2
 					}
 				})
+				.to('.pre-command', {
+					display: 'block'
+				})
+				.addLabel('neofetchCleared')
 				.set(
 					'.pre-command',
 					{
@@ -204,13 +221,18 @@
 				.set('.man', {
 					display: 'block'
 				})
-				.set(
-					'.man',
-					{
-						display: 'none'
-					},
-					'+=4'
-				)
+				.to('.man', {
+					display: 'block',
+					duration: 4
+				})
+				.addLabel('manDisplayed')
+				.to('.man', {
+					display: 'block',
+					duration: 9
+				})
+				.set('.man', {
+					display: 'none'
+				})
 				.set('.post-command .input', {
 					text: '',
 					color: '#f7768e'
@@ -256,6 +278,11 @@
 				.set('.pre-command .caret', {
 					animationName: 'blinking'
 				})
+				.to('.pre-command .caret', {
+					opacity: 1,
+					animationName: ''
+				})
+				.addLabel('manCleared')
 				.to(
 					'.pre-command .input',
 					{
@@ -303,6 +330,10 @@
 				.set('.post-command', {
 					display: 'block'
 				})
+				.to('.post-command', {
+					display: 'block'
+				})
+				.addLabel('catDisplayed')
 				.to(
 					'.post-command .input',
 					{
@@ -391,6 +422,10 @@
 				.set('.screenOfDeath', {
 					display: 'grid'
 				})
+				.to('.screenOfDeath', {
+					display: 'grid'
+				})
+				.addLabel('BSOD')
 				.set(
 					'.screenOfDeath .jk',
 					{
@@ -398,6 +433,7 @@
 					},
 					'+=3'
 				)
+				.addLabel('bsodJk')
 				.set(
 					'section.desktop',
 					{
@@ -469,6 +505,7 @@
 					},
 					'+=0.25'
 				)
+				.addLabel('terminalOpened')
 				.set(
 					'.pre-command .caret',
 					{
@@ -516,6 +553,7 @@
 				.set('.post-command', {
 					display: 'block'
 				})
+				.addLabel('neofetchDisplayed')
 				.to(
 					'.post-command .input',
 					{
@@ -570,6 +608,10 @@
 						speed: 0.2
 					}
 				})
+				.to('.pre-command', {
+					display: 'block'
+				})
+				.addLabel('neofetchCleared')
 				.set(
 					'.pre-command',
 					{
@@ -580,13 +622,18 @@
 				.set('.man', {
 					display: 'block'
 				})
-				.set(
-					'.man',
-					{
-						display: 'none'
-					},
-					'+=4'
-				)
+				.to('.man', {
+					display: 'block',
+					duration: 2
+				})
+				.addLabel('manDisplayed')
+				.to('.man', {
+					display: 'block',
+					duration: 4
+				})
+				.set('.man', {
+					display: 'none'
+				})
 				.set('.post-command .input', {
 					text: '',
 					color: '#f7768e'
@@ -632,6 +679,7 @@
 				.set('.pre-command .caret', {
 					animationName: 'blinking'
 				})
+				.addLabel('manCleared')
 				.to(
 					'.pre-command .input',
 					{
@@ -679,6 +727,10 @@
 				.set('.post-command', {
 					display: 'block'
 				})
+				.to('.post-command', {
+					display: 'block'
+				})
+				.addLabel('catDisplayed')
 				.to(
 					'.post-command .input',
 					{
@@ -819,6 +871,10 @@
 				.set('.screenOfDeath', {
 					display: 'grid'
 				})
+				.to('.screenOfDeath', {
+					display: 'grid'
+				})
+				.addLabel('BSOD')
 				.set(
 					'.screenOfDeath .jk',
 					{
@@ -826,6 +882,7 @@
 					},
 					'+=3'
 				)
+				.addLabel('bsodJk')
 				.set(
 					'section.desktop',
 					{
