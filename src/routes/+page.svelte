@@ -122,7 +122,7 @@
 					'-=0.15'
 				)
 				.set('.caret', {
-					animationName: 'blinking'
+					animationName: ''
 				})
 				.set(
 					'.pre-command .caret',
@@ -182,7 +182,8 @@
 					color: '#f7768e'
 				})
 				.set('.pre-command .caret', {
-					animationName: 'blinking'
+					animationName: '',
+					opacity: 1
 				})
 				.to(
 					'.pre-command .input',
@@ -276,7 +277,8 @@
 					text: ''
 				})
 				.set('.pre-command .caret', {
-					animationName: 'blinking'
+					opacity: 1,
+					animationName: ''
 				})
 				.to('.pre-command .caret', {
 					opacity: 1,
@@ -326,6 +328,10 @@
 				.set('.post-command .input', {
 					text: '',
 					color: '#f7768e'
+				})
+				.set('.post-command .caret', {
+					animationName: '',
+					opacity: 1
 				})
 				.set('.post-command', {
 					display: 'block'
@@ -527,7 +533,7 @@
 					'-=0.15'
 				)
 				.set('.caret', {
-					animationName: 'blinking'
+					animationName: ''
 				})
 				.set(
 					'.pre-command .caret',
@@ -583,7 +589,8 @@
 					color: '#f7768e'
 				})
 				.set('.pre-command .caret', {
-					animationName: 'blinking'
+					animationName: '',
+					opacity: 1
 				})
 				.to(
 					'.pre-command .input',
@@ -677,7 +684,12 @@
 					text: ''
 				})
 				.set('.pre-command .caret', {
-					animationName: 'blinking'
+					opacity: 1,
+					animationName: ''
+				})
+				.to('.pre-command .caret', {
+					opacity: 1,
+					animationName: ''
 				})
 				.addLabel('manCleared')
 				.to(
@@ -723,6 +735,10 @@
 				.set('.post-command .input', {
 					text: '',
 					color: '#f7768e'
+				})
+				.set('.post-command .caret', {
+					animationName: '',
+					opacity: 1
 				})
 				.set('.post-command', {
 					display: 'block'
