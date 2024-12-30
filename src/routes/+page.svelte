@@ -23,7 +23,7 @@
 			scrollTrigger: {
 				trigger: 'section.desktop',
 				start: 'top top',
-				end: '+=600%',
+				end: '+=900%',
 				scrub: 2,
 				pin: true,
 
@@ -445,7 +445,7 @@
 					{
 						display: 'grid'
 					},
-					'+=4'
+					'+=6'
 				);
 		});
 
@@ -904,7 +904,7 @@
 					{
 						display: 'grid'
 					},
-					'+=4'
+					'+=6'
 				);
 		});
 	});
