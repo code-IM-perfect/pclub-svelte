@@ -1593,6 +1593,9 @@
 	/* Phone only for the Desktop animation */
 	@media (max-width: 768px) {
 		section.desktop {
+			.bar {
+				background: rgba(0, 0, 0, 0.9);
+			}
 			.bar .left {
 				width: 40vw;
 			}
@@ -1600,7 +1603,7 @@
 			.terminal-window {
 				padding: 2vh 2vh 3vh;
 				/* height: 88vh; */
-				background: black;
+				background: rgba(0, 0, 0, 0.9);
 				backdrop-filter: none;
 
 				.terminal {
