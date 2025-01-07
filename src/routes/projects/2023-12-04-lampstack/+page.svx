@@ -1,0 +1,42 @@
+---
+title: "LampStack"
+date: 2023-11-30
+author: Shreya
+
+tags:
+  - summer23
+  - project
+
+summary:
+  - The project aimed at teaching various aspects of web development and server management.
+image:
+  url: "https://png.pngtree.com/thumb_back/fh260/background/20220607/pngtree-server-isometric-3d-connection-communication-data-image_1407027.jpg"
+---
+
+# Sumarizzing
+
+The LAMP Stack project, is a comprehensive learning program, designed to teach 16 mentees various aspects of web development and server management. The acronym "LAMP" stands for Linux, Apache, MySQL, and PHP/Python/Perl, which are the key components used in web development.
+
+Here's a breakdown of the project:
+
+1. **Learning Goals:** Participants gained hands-on experience in server operations, website development, and deployment strategies.
+
+2. **Curriculum Highlights:**
+
+   - Weeks 1-2: Basic server setup, networking protocols, and virtual hosting.
+   - Weeks 3-4: Security measures, user authentication, and web directory management.
+   - Weeks 4-5: Website development with HTML, CSS, Bootstrap, JavaScript, and Docker containerization.
+   - Week 6: Database connectivity, AWS deployment, SSL implementation, and hosting on AWS.
+   - Week 7: Advanced topics like Tmux, proxies, CI/CD using Jenkins, and server containerization.
+
+3. **Evaluation:**
+
+   - Mid-term: Hosted a diverse-access website.
+   - End-term: Containerization of the server for enhanced scalability.
+
+4. **Key Tools:**
+
+   - Git, Vim, CentOS VMs, Docker for development.
+   - AWS for website deployment and hosting.
+
+5. **Practical Application:** Participants applied their knowledge by deploying websites on AWS, ensuring a practical understanding of server management and development practices.

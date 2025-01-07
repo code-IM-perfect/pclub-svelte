@@ -1,0 +1,28 @@
+---
+title: "Sumarizzing"
+date: 2023-11-30
+author: tamoghna
+
+tags:
+  - summer23
+  - project
+
+  - This project aimed to introduce 20 mentees to machine learning and explore natural language processing.
+image:
+  url: "https://t3.ftcdn.net/jpg/02/80/04/54/360_F_280045451_if6YKR6yBF4X2xHIcn5opbNgY3noerDC.jpg"
+---
+
+# Sumarizzing
+
+This project aimed to introduce 20 mentees to
+machine learning and explore natural language processing. The tasks assigned to them varied from basic linear regression, and optimization algorithms such as gradient descent to learning and implementing popular natural language processing models such as LSTMs, and Transformers.
+
+The deliverable was a question-answering and summarization model.
+
+The project consisted of 5 essential tasks:
+
+- The first task was on data processing and scraping. It aimed to teach them about the fundamentals of web scraping menteesing tools such as BeautifulSoup and Selenium.
+- The next task introduced them to data preprocessing techniques like EDA(Exploratory Data Analysis). In EDA, they learned about preprocessing the data by analyzing the data either categorically or numerically using visual representations of it. Handling missing values, noisy data, and normalization of the given dataset were all part of the second task.
+- They were next introduced to basic linear regression and logistic regression and had to implement various models for eg. Random Forests on various datasets on Kaggle.
+- This task was based on implementing Multi-Layer Perceptrons and was their first introduction to modern deep learning.
+- The final task was to generate a language model for standup comedy routines given a dataset of open-mic performances. [Complete Project - 1](https://github.com/Jarnus09/Sumarizzing-Assignment4)
