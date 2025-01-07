@@ -11,8 +11,7 @@ tags:
   - infosec
   - CTF
 
-image:
-  url: /images/roadmaps/infosec-roadmap.jpg
+image: ./infosec-roadmap.jpg
 ---
 
 ## What is Info-Sec?
