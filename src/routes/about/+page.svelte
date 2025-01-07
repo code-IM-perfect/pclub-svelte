@@ -10,47 +10,50 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		let timeline = gsap.timeline({
-			delay: 0.5
-		});
+		let context = gsap.context(() => {
+			let timeline = gsap.timeline({
+				delay: 0.5
+			});
 
-		timeline
-			.from('.aboutLetter', {
-				scale: 1.2,
-				ease: 'back.out',
-				duration: 0.3
-			})
-			.from(
-				'.aboutLetter',
-				{
-					opacity: 0,
+			timeline
+				.from('.aboutLetter', {
+					scale: 1.2,
+					ease: 'back.out',
 					duration: 0.3
-				},
-				'<'
-			)
-			.from('.pclubLetter', {
-				scale: 1.2,
-				ease: 'back.out',
-				duration: 0.3
-			})
-			.from(
-				'.pclubLetter',
-				{
-					opacity: 0,
+				})
+				.from(
+					'.aboutLetter',
+					{
+						opacity: 0,
+						duration: 0.3
+					},
+					'<'
+				)
+				.from('.pclubLetter', {
+					scale: 1.2,
+					ease: 'back.out',
 					duration: 0.3
-				},
-				'<'
-			)
-			.from(
-				'#aboutWindow',
-				{
-					opacity: 0,
-					scale: 0.95,
-					ease: 'back.Out',
-					duration: 0.2
-				},
-				'+=0.5'
-			);
+				})
+				.from(
+					'.pclubLetter',
+					{
+						opacity: 0,
+						duration: 0.3
+					},
+					'<'
+				)
+				.from(
+					'#aboutWindow',
+					{
+						opacity: 0,
+						scale: 0.95,
+						ease: 'back.Out',
+						duration: 0.2
+					},
+					'+=0.5'
+				);
+		});
+		return () => context && context.kill();
 	});
 </script>
 
