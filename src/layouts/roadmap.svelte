@@ -2,4 +2,8 @@
 	let { children } = $props();
 </script>
 
-{@render children()}
+<article class="grid justify-center">
+	<div class="dark prose xl:prose-xl dark:prose-invert max-md:max-w-[85vw]">
+		{@render children()}
+	</div>
+</article>
