@@ -11,7 +11,7 @@ const config = {
             blog: './src/layouts/blog.svelte',
             roadmap: './src/layouts/roadmap.svelte',
             project: './src/layouts/project.svelte',
-            _: './src/layouts/default.svelte'
+            _: './src/layouts/+Default.svelte'
         }
     })],
 
