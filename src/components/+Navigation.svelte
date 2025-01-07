@@ -434,6 +434,14 @@
 			}
 		}
 	}
+	@media (hover: none) {
+		nav svg {
+			display: none;
+		}
+		nav a {
+			color: var(--light);
+		}
+	}
 	@media (min-width: 769px) {
 		nav {
 			& a {
