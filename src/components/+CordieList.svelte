@@ -12,7 +12,7 @@
 				<h4 class="cordieName">{cordie.name}</h4>
 				<a class="cordieMail" href="mailto:{cordie.mail}">{cordie.mail}</a>
 				<h5 class="cordieNum">{cordie.number}</h5>
-				<div class="socButtons">
+				<div class="sociButtons">
 					<a class="instButt" href={cordie.insta} aria-label="instagram-social-button">
 						<i class="fa-brands fa-instagram"></i>
 					</a>
@@ -112,7 +112,7 @@
 		a {
 			transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 		}
-		& .socButtons {
+		& .sociButtons {
 			--front: var(--light);
 			--back: var(--dark);
 			font-size: 2vh;
@@ -170,7 +170,7 @@
 		& .cordieImg {
 			height: calc(var(--imgHeight) - var(--socialHeight));
 		}
-		& .socButtons {
+		& .sociButtons {
 			height: var(--socialHeight);
 		}
 		/* & .cordieName {
@@ -195,7 +195,7 @@
 			& .cordieImg {
 				height: calc(var(--imgHeight) - var(--socialHeight));
 			}
-			& .socButtons {
+			& .sociButtons {
 				height: var(--socialHeight);
 			}
 			& .backBord {
@@ -205,7 +205,7 @@
 				filter: blur(2vh);
 			}
 
-			& .socButtons {
+			& .sociButtons {
 				& a {
 					opacity: 1;
 				}
