@@ -1,0 +1,114 @@
+---
+layout: post
+title: Winter of Code
+date: 2024-12-01 00:50:21 +530
+author: Himesh Singh
+website: http://acehack.org
+
+tags:
+- winterofcode
+- winter
+
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1732863459678/2c8efaf0-3add-4f54-afdc-81a07f9fd97a.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
+---
+
+
+# PClub IITK : Winter of Code ❄️❄️
+The Programming Club at IITK is thrilled to let the campus junta know that starting from the 6th of December, you can apply to be part of something amazing - the Winter of Code, a program in partnership with Godspeed Systems, designed to empower innovators and coding enthusiasts to build impactful projects ([PROJECT LIST](https://godspeedsystems-my.sharepoint.com/:x:/g/personal/dharuv_godspeed_systems/EVb8U24Dfv9Pjx5FA3nG8Y4ByPwQlLiFpFCmXdeZEx6G5Q?rtime=bGSHQ3IQ3Ug)) while receiving grants and professional growth - and possibility of sponsored long term maintainership. This isn’t just another program—it’s an immersive journey into the world of producing solutions to some challenging real world problems.
+
+Whether you want to refine your skills, tackle meaningful challenges, or bring your own groundbreaking ideas to life, Winter of Code provides the tools, mentorship, and the ultimate platform to make it happen.
+
+In addition to the upskilling , the program might also help you turn your [**GSOC**](https://summerofcode.withgoogle.com/) dream into a reality by giving you a great experience of contributions and development.
+
+## Learn and Build: A Hands-On Coding Experience
+
+Winter of Code focuses on learning by doing. Participants will work on curated projects or pitch their own ideas, solving challenges and building solutions that matter. This is an opportunity to enhance your skill set while contributing to innovations that push the boundaries of problem solving in the real world domain.
+
+### **Project Suggestions** : 
+
+Here are a few examples of projects you can work on (most are AI, but rest are cool and needed too!). You can find the [full list here](https://godspeedsystems-my.sharepoint.com/:x:/g/personal/dharuv_godspeed_systems/EVb8U24Dfv9Pjx5FA3nG8Y4ByPwQlLiFpFCmXdeZEx6G5Q?rtime=bGSHQ3IQ3Ug).
+
+**Multi-Agent Sales Team Simulator** : Design AI systems to optimize sales workflows and improve operational efficiency.
+
+**Code Review Automation** : Build tools that integrate with GitHub to provide structured code reviews and actionable feedback for Merge Requests.
+
+**AI-Based Debugging** : Create an intelligent debugger to analyze logs and codebases, simplifying troubleshooting and enhancing productivity.
+
+**Team Productivity Reporting** : Use Jira APIs and text-to-SQL to develop analytics dashboards that track key performance metrics like bug introduction rates and resolution times.
+
+**Beckn Protocol Integration** : Explore decentralized e-commerce and service discovery by developing solutions around the Beckn Protocol.
+
+For those with unique ideas and startups in mind, you will be able to Pitch Your Own Project and see it come to life with an exclusive access to Godspeed’s extensive resources.
+
+
+## Categories of Projects :
+
+Participants can choose from three project categories based on complexity and duration :
+
+**Small Projects**
+*Duration* : 3 weeks
+
+*Objective* : Short-term projects that enable participants to quickly deliver impactful results while developing foundational skills.
+
+**Large Projects**
+*Duration* : 6-8 weeks
+
+*Objective* : More complex challenges requiring in-depth problem-solving and technical expertise to create innovative solutions.
+
+**Pitch Your Own Project**
+*Duration* : Flexible, based on the project scope.
+
+*Objective* : Propose your own AI project. Submit a detailed proposal outlining the problem, solution, and potential impact. Selected projects will receive mentorship, resources, and platform support to turn your idea into reality
+
+
+## Proposal Submission Guidelines
+To participate in Godspeed's Winter of AI, individuals or teams must submit a detailed project proposal for the selected project category. Here's what to include in your application:
+* ***Project Proposal*** : Outline the problem you aim to solve, your proposed solution, technical approach, and the potential impact of your project.
+* ***GitHub Repository (Optional)*** : If you’ve built related projects in the past, include links to your GitHub repositories to showcase your work and technical expertise.
+
+## Evaluation and Shortlisting
+
+All proposals will undergo a careful evaluation by our expert panel. Shortlisted participants will be announced based on:
+* Clarity and feasibility of the proposal.
+* Innovation and originality.
+* Relevant technical experience (if showcased through prior work).
+
+Make your proposal stand out, and take the first step toward building something extraordinary!
+
+##  Recognition and Rewards 
+
+We believe in recognizing and rewarding excellence. Here’s what’s in store for participants:
+
+### Grants and Certificates : 
+***For Small Projects*** :
+* Each project will have a winner who will receive **INR 5000** as the winning amount.
+* Every successful project submission will earn a participation and completion certificate along with exclusive Godspeed goodies.
+
+***For Large Projects*** :
+* Each project will have a winning participant or team who will receive **INR 30,000** as the winning prize.
+* Every successful project submission will earn a participation and completion certificate along with exclusive Godspeed goodies.
+* Maintenance Rewards: Winning participants or teams can receive INR 5000/month for maintaining the project if they agree to and successfully meet the maintenance requirements.
+* Revenue Sharing Opportunities: If the project goes to market and generates revenue, the winning participant or team will be eligible for revenue sharing (T&Cs apply).
+
+
+This structure ensures that participants not only gain recognition but also benefit financially from their contributions, with long-term opportunities for growth.
+
+##  Resources to Get Started
+
+To help you get familiar with Godspeed's ecosystem and access all the necessary information for a seamless experience for your coding journey, explore the resources below:
+* [Getting Started with Godspeed](https://godspeed.systems/docs/microservices-framework/guide/get-started) : A comprehensive guide to understand our platform, tools, and processes.
+* [Guides and FAQs](https://godspeed.systems/docs/microservices-framework/guides) : Your go-to resource for answers to common questions and step-by-step instructions to ensure a smooth journey.
+
+ Make sure to review these resources before diving into your project for a head start in PClub's Winter of Code. 
+ 
+##  Program Timeline
+
+Here’s a glance at the program schedule:
+* **Applications Open** : 6th December 2024
+* **Application Closes** : 18th December 2024
+* **Shortlist Announcements** : 20th December 2024
+* **Program Begins** : 21st December 2024
+* **Project Submission Deadline (Small Projects)** : 10th January 2025
+* **Project Submission Deadline (Large Projects)** : 31st January 2025 (+ 2 weeks extension in special cases)
+
+### Happy Coding !
