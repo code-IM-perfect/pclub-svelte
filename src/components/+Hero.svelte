@@ -354,7 +354,7 @@
 	/>
 </svelte:head> -->
 
-<div id="introOverlay" class="absolute left-0 top-0 z-[100] h-full w-full bg-[var(--dark)]"></div>
+<div id="introOverlay" class="absolute left-0 top-0 z-100 h-full w-full bg-(--dark)"></div>
 <section class="hero">
 	<svg viewBox="0 0 100 100" id="gradientCircleFooter">
 		<defs>
