@@ -29,7 +29,7 @@ The first line contains N and Q-the length of the string and the number of queri
 For each query of type 2 , output "Yes" or "No" accordingly , the answer for each query on a new line.
 
 **Constraints**  
-1<=N<=10<sup>5</sup>  
-1<=Q<=10<sup>5</sup>  
-1<=i , l , r <=N  
+1\<=N\<=10<sup>5</sup>  
+1\<=Q\<=10<sup>5</sup>  
+1\<=i , l , r \<=N  
 All the characters in the input are lowercase letters from 'a' to 'z'.

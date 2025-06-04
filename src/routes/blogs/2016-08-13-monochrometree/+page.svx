@@ -21,7 +21,7 @@ Being the responsible person that you are, you set on re-coloring your tree T. Y
 You want to please your girlfriend and also want to do the least possible work. Output the minimum number of operations that you have to perform to change the color scheme of your tree to the one that your girlfriend wants.
 
 **Constraints**  
-1<=N<=100000
+1\<=N\<=100000
 
 **Input**  
 The first line contains a single integer N denoting the number of nodes in the tree.  

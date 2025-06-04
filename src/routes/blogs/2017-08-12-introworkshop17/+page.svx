@@ -147,11 +147,11 @@ That's all good, but what if you want multiple checks on a variable? For example
 
 ```python
 a = 4
-if a < 0:
+if a \< 0:
 	print "a is less than 0"
-elif a >= 0 and a < 4:
+elif a >= 0 and a \< 4:
 	print "a is between 0 and 4"
-elif a >= 4 and a < 10:
+elif a >= 4 and a \< 10:
 	print "a is between 4 and 10"
 else:
 	print "a is bigger than 10"
@@ -163,7 +163,7 @@ Now for some loopy-loops!
 
 ```python
 a = 0
-while a < 10:
+while a \< 10:
     print a
     a = a + 1
 ```

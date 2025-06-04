@@ -19,10 +19,10 @@ There are **M** roads forming a road network between the **N** substations . Ini
 Alisa's city Manyonok , like many other cities are running a bit of a debt . As a result she wants you to find out the _minimum cost incurred by her_ for all the chiefs from substations 2 to N to come to substation number 1.
 
 **Constraints**  
-1<=N<=100000  
-1<=M<=100000  
-1<=u,v<=N  
-1<=c(u,v)<=10<sup>9</sup>
+1\<=N\<=100000  
+1\<=M\<=100000  
+1\<=u,v\<=N  
+1\<=c(u,v)\<=10<sup>9</sup>
 
 **Input**  
 The first line contains the integers N and M.  

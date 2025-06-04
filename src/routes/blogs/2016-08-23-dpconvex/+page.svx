@@ -69,7 +69,7 @@ categories:
 - In some specific problems that can be solved by **Dynamic Programming** we can do faster calculation of the state using the Convex Hull Trick. In these type of problems, the recursive relation between the states is as follows:
 
       * **dp<sub>i</sub> = min(b<sub>j</sub>*a<sub>i</sub> + dp<sub>j</sub>)** ,where j &isin; [1,i-1]
-      * **b<sub>i</sub>** > **b<sub>j</sub>** ,&forall; i<j.
+      * **b<sub>i</sub>** > **b<sub>j</sub>** ,&forall; i\<j.
 
       Our task is to calculate **dp<sub>N</sub>** from this relation. Here **b<sub>i</sub>** and **dp<sub>i</sub>** can be analogously interpreted as the **slope** and **y-intercept** for a line, and our problem of calculating the i'th state can be viewed as finding the minimum value of a line for x-co-ordinate **a<sub>i</sub>**,which can be effeciently done using the convex hull trick.
 
@@ -77,7 +77,7 @@ categories:
 
 - In the above problem if we directly calculate **dp<sub>i</sub>** by taking i-1 steps for each i, the the time complexity turns out to be **&Omicron;**(**N<sup>2</sup>**), but by using this optimisation technique we can calculate each state in **&Omicron;**(log**N**) and the total complexity of the problem reduces to **&Omicron;**(**N**log**N**)
 
-- This problem can also be more constrained by a condition: \* **a<sub>i</sub>** < **a<sub>j</sub>**, &forall; i<j.
+- This problem can also be more constrained by a condition: \* **a<sub>i</sub>** \< **a<sub>j</sub>**, &forall; i\<j.
 
       In this case, as we know that the x-co-ordinates are in increasing order, we can just maintain a pointer to the line giving minimunm value and then update the pointer to the next line according to the query. Here the steps taken for binary search are replaced by some amortised constant steps to update the pointer to the next lines(decreasing slope order). So, the calculation of each
 

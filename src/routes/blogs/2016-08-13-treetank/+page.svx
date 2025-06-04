@@ -29,8 +29,8 @@ Print a single integer - the maximum capacity of the car's tank.
 
 **Constraints**
 
-1 <= N <= 10<sup>5</sup>  
-1 <= u, v <= N  
-1 <= K <= 10<sup>15</sup>  
-1 <=c (u, v) <= 10<sup>9</sup>  
+1 \<= N \<= 10<sup>5</sup>  
+1 \<= u, v \<= N  
+1 \<= K \<= 10<sup>15</sup>  
+1 \<=c (u, v) \<= 10<sup>9</sup>  
 It is guaranteed that the graph in the input is a tree, without multiple edges or self-loops.

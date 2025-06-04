@@ -27,8 +27,8 @@ The next line contains K integers-the numbers of the junctions that Miranda has 
 Print a single integer-the answer to the problem stated above.
 
 **Constraints**  
-2<=N<=400  
-1<=M<=N\*(N-1)/2  
-0<=K<=15  
-1<=u,v<=N,1<=c<=1000  
+2\<=N\<=400  
+1\<=M\<=N\*(N-1)/2  
+0\<=K\<=15  
+1\<=u,v\<=N,1\<=c\<=1000  
 None of the K junctions that has the material that Miranda needs is 1 or N.

@@ -47,13 +47,9 @@ Some common directives:
 
 AngularJS binds data to HTML using **Expressions**.AngularJS expressions can be written inside double braces:
 
-{% raw %}
-
 ```html
 {{ expression }}
 ```
-
-{% endraw %}
 
 If you remove the ng-app directive, HTML will display the expression as it is, without solving it.
 

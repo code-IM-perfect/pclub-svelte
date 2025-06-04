@@ -16,7 +16,7 @@ credits:
 
 ## Introduction
 
-Free Libre and open-source software (FLOSS) is computer software that can be classified as both free software and open-source software. That is, anyone is freely licensed to use, copy, study, and change the software in any way, and the source code is openly shared so that people are encouraged to voluntarily improve the design of the software. Free, open-source operating systems such as [GNU/Linux](“https://www.gnu.org/gnu/linux-and-gnu.en.html”) are widely utilised today, powering millions of servers, desktops, smartphones (e.g. Android), and other devices.<sup>[1]<sup>
+Free Libre and open-source software (FLOSS) is computer software that can be classified as both free software and open-source software. That is, anyone is freely licensed to use, copy, study, and change the software in any way, and the source code is openly shared so that people are encouraged to voluntarily improve the design of the software. Free, open-source operating systems such as [GNU/Linux](“https://www.gnu.org/gnu/linux-and-gnu.en.html”) are widely utilised today, powering millions of servers, desktops, smartphones (e.g. Android), and other devices.
 
 ## History
 

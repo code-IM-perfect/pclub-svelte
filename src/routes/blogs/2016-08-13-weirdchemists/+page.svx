@@ -34,8 +34,8 @@ Output a single integer: the number of happy chemists.
 
 **Constraints**:
 
-1<=N<= 10<sup>4</sup>  
-1<=M<=1000  
-1<=ai<=10<sup>4</sup>  
-1<=l<sub>i</sub><=r<sub>i</sub><=N  
-1<=x<sub>i</sub><=10<sup>9</sup>
+1\<=N\<= 10<sup>4</sup>  
+1\<=M\<=1000  
+1\<=ai\<=10<sup>4</sup>  
+1\<=l<sub>i</sub>\<=r<sub>i</sub>\<=N  
+1\<=x<sub>i</sub>\<=10<sup>9</sup>

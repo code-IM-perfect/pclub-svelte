@@ -30,8 +30,8 @@ The next n-1 lines contain a pair of integers u v denoting there is a road betwe
 Print n space separated integers where the v<sup>th</sup> integer denotes the number of valid paths from junction numbered 1 to junction numbered v.
 
 **Constraints**  
-1<=n<=10<sup>5</sup>  
-1<=u,v<=n  
+1\<=n\<=10<sup>5</sup>  
+1\<=u,v\<=n  
 There are no self-loops or multiple edges and it is guaranteed that the tree is connected.
 
 Note: A road between u and v means one can travel from u to v and vice versa.

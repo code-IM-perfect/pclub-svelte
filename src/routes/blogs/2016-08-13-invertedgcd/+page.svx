@@ -14,7 +14,7 @@ categories:
 
 Given an array a of N numbers , you have to find the number of pair of indices _i_ and _j_ that satisfy the following relation:
 
-1. i < j
+1. i \< j
 2. a<sub>i</sub> > a<sub>j</sub>
 3. gcd( a<sub>i</sub> , a<sub>j</sub> )=1
 
@@ -26,5 +26,5 @@ The next line contains N space separated integers denoting the array a.
 Output a single integer - the answer to the problem stated above.
 
 **Constraints**  
-1<=N<=10<sup>5</sup>  
-1<=a<sub>i</sub><=10<sup>5</sup>
+1\<=N\<=10<sup>5</sup>  
+1\<=a<sub>i</sub>\<=10<sup>5</sup>
